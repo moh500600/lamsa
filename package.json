@@ -1,0 +1,73 @@
+{
+"name": "lamsat-rawai",
+"version": "1.0.0",
+"private": true,
+"type": "module",
+"main": "electron/main.cjs",
+"scripts": {
+    "dev": "concurrently \"vite --host 0.0.0.0\" \"node --watch server/index.js\"",
+"build": "vite build",
+"start": "node server/index.js",
+"check": "vite build",
+"electron": "electron .",
+"dist": "npm run build && electron-builder --win nsis --x64",
+"dist:dir": "npm run build && electron-builder --win dir --x64"
+},
+  "build": {
+    "appId": "com.lamsatrawai.platform",
+    "productName": "Lamsat Rawai",
+    "asar": false,
+    "electronDownload": {
+      "unsafelyDisableChecksums": true
+    },
+    "directories": {
+"output": "release"
+},
+"files": [
+"dist//*",
+"server//",
+"data/**/",
+"electron//*",
+"package.json",
+"node_modules//*"
+],
+"win": {
+"target": "nsis",
+"signAndEditExecutable": false,
+"artifactName": "${productName}-Setup-${version}.${ext}"
+},
+"nsis": {
+"oneClick": false,
+"perMachine": false,
+"allowElevation": true,
+"allowToChangeInstallationDirectory": true,
+"createDesktopShortcut": true,
+"createStartMenuShortcut": true,
+"shortcutName": "لمسة روائع",
+"deleteAppDataOnUninstall": false
+}
+},
+"dependencies": {
+"@capacitor/android": "^8.5.3",
+"@capacitor/core": "^8.5.3",
+"@supabase/supabase-js": "^2.118.0",
+"@vitejs/plugin-react": "latest",
+"concurrently": "latest",
+"cors": "^2.8.6",
+"express": "latest",
+"lucide-react": "latest",
+"react": "latest",
+"react-dom": "latest",
+"recharts": "latest",
+"vite": "latest"
+},
+"devDependencies": {
+"@capacitor/cli": "^8.5.3",
+"@types/node": "latest",
+"@types/react": "latest",
+"@types/react-dom": "latest",
+"electron": "^45.0.0",
+"electron-builder": "^26.18.0",
+"typescript": "latest"
+}
+}

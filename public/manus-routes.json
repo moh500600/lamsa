@@ -1,0 +1,17 @@
+{
+  "routes": [
+    {"path":"/","title":"لوحة التحكم"},
+    {"path":"/business","title":"بيانات النشاط"},
+    {"path":"/areas","title":"مناطق الخدمة"},
+    {"path":"/map","title":"خريطة المناطق"},
+    {"path":"/google","title":"ملفات Google والروابط"},
+    {"path":"/seo","title":"مركز الظهور المحلي"},
+    {"path":"/reports","title":"التقارير والإحصائيات"},
+    {"path":"/assistant","title":"مساعد الذكاء الاصطناعي"},
+    {"path":"/bookings","title":"العملاء والحجوزات"},
+    {"path":"/tasks","title":"المهام الآلية"},
+    {"path":"/users","title":"المستخدمون والصلاحيات"},
+    {"path":"/audit","title":"سجل العمليات"},
+    {"path":"/settings","title":"الإعدادات"}
+  ]
+}

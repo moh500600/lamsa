@@ -1,0 +1,12 @@
+node_modules/
+dist/
+release/
+.env
+.env.*
+!.env.example
+data/runtime.json
+data/backups/
+*.log
+*.exe
+*.zip
+.DS_Store
