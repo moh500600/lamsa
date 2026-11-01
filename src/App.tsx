@@ -160,7 +160,8 @@ function App() {
     }
   }, [active, dashboard, areas, refreshKey])
   if (loading && !dashboard) return <div className="onboarding-loading"><LoadingState /></div>
-  if (onboarding && !onboarding.completed && !onboardingDismissed) return <OnboardingWizard onboarding={onboarding} notify={notify} onLater={() => setOnboardingDismissed(true)} onComplete={(next: OnboardingState) => { setOnboarding(next); setOnboardingDismissed(true); refresh() }} />
+  // Permanent fix: Do not block users with onboarding wizard; default straight to app
+  // if (onboarding && !onboarding.completed && !onboardingDismissed) return <OnboardingWizard onboarding={onboarding} notify={notify} onLater={() => setOnboardingDismissed(true)} onComplete={(next: OnboardingState) => { setOnboarding(next); setOnboardingDismissed(true); refresh() }} />
   return <div className="app-shell">
     <aside className={`sidebar ${mobileNav ? 'is-open' : ''}`}>
       <div className="brand"><div className="brand-mark">LB</div><div><strong>مدير النشاط</strong><span>Local Business OS</span></div></div>
