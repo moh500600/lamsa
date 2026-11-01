@@ -97,7 +97,12 @@ const nav = [
 const chartData = [{ name: 'الأحد', value: 0 }, { name: 'الإثنين', value: 0 }, { name: 'الثلاثاء', value: 0 }, { name: 'الأربعاء', value: 0 }, { name: 'الخميس', value: 0 }, { name: 'الجمعة', value: 0 }, { name: 'السبت', value: 0 }]
 
 async function api<T = any>(url: string, options: RequestInit = {}): Promise<T> {
-  const response = await fetch(url, { headers: { 'Content-Type': 'application/json', ...(options.headers || {}) }, ...options })
+  const headers: Record<string, string> = {
+    'Content-Type': 'application/json',
+    'Authorization': 'Bearer demo-session',
+    ...((options.headers as any) || {})
+  }
+  const response = await fetch(url, { ...options, headers })
   const payload = await response.json().catch(() => ({}))
   if (!response.ok || payload.ok === false) throw new Error(payload?.error?.message || 'تعذر تنفيذ العملية')
   return payload
