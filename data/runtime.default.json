@@ -1507,7 +1507,7 @@
         "مساج علاجي",
         "عناية منزلية"
       ],
-      "lifecycleState": "improved",
+      "lifecycleState": "tech_fixed",
       "retryCount": 0,
       "lastOptimizationAt": "2026-11-01T08:12:32.844Z",
       "lastOptimizationLog": {
@@ -1597,13 +1597,13 @@
         "مساج علاجي",
         "عناية منزلية"
       ],
-      "lifecycleState": "improved",
+      "lifecycleState": "tech_fixed",
       "retryCount": 0,
-      "lastOptimizationAt": "2026-11-01T08:12:32.844Z",
+      "lastOptimizationAt": "2026-11-01T14:12:40.241Z",
       "lastOptimizationLog": {
         "areaId": "area_النسيم",
         "district": "النسيم",
-        "startedAt": "2026-11-01T08:12:32.844Z",
+        "startedAt": "2026-11-01T14:12:40.191Z",
         "steps": [
           {
             "step": "audit",
@@ -1655,9 +1655,9 @@
         "success": true,
         "message": "تم الإصلاح والتحقق بنجاح: تم إعداد توصية محتوى محلي وخطة كلمات مفتاحيّة لأحياء النسيم.",
         "reProbe": {
-          "measuredAt": "2026-11-01T08:12:32.844Z",
-          "rankBefore": 7,
-          "rankAfter": 6,
+          "measuredAt": "2026-11-01T14:12:40.193Z",
+          "rankBefore": 6,
+          "rankAfter": 5,
           "delta": "+1 مراكز"
         }
       }
@@ -1687,13 +1687,13 @@
         "مساج علاجي",
         "عناية منزلية"
       ],
-      "lifecycleState": "improved",
+      "lifecycleState": "tech_fixed",
       "retryCount": 0,
-      "lastOptimizationAt": "2026-11-01T08:12:32.844Z",
+      "lastOptimizationAt": "2026-11-01T14:12:40.242Z",
       "lastOptimizationLog": {
         "areaId": "area_حي-الورود",
         "district": "حي الورود",
-        "startedAt": "2026-11-01T08:12:32.844Z",
+        "startedAt": "2026-11-01T14:12:40.242Z",
         "steps": [
           {
             "step": "audit",
@@ -1745,9 +1745,9 @@
         "success": true,
         "message": "تم الإصلاح والتحقق بنجاح: تم إعداد توصية محتوى محلي وخطة كلمات مفتاحيّة لأحياء حي الورود.",
         "reProbe": {
-          "measuredAt": "2026-11-01T08:12:32.844Z",
-          "rankBefore": 7,
-          "rankAfter": 6,
+          "measuredAt": "2026-11-01T14:12:40.242Z",
+          "rankBefore": 6,
+          "rankAfter": 5,
           "delta": "+1 مراكز"
         }
       }
@@ -1777,13 +1777,13 @@
         "مساج علاجي",
         "عناية منزلية"
       ],
-      "lifecycleState": "improved",
+      "lifecycleState": "tech_fixed",
       "retryCount": 0,
-      "lastOptimizationAt": "2026-11-01T08:12:32.844Z",
+      "lastOptimizationAt": "2026-11-01T20:12:42.972Z",
       "lastOptimizationLog": {
         "areaId": "area_الفيحاء",
         "district": "الفيحاء",
-        "startedAt": "2026-11-01T08:12:32.844Z",
+        "startedAt": "2026-11-01T20:12:42.967Z",
         "steps": [
           {
             "step": "audit",
@@ -1835,9 +1835,9 @@
         "success": true,
         "message": "تم الإصلاح والتحقق بنجاح: تم إعداد توصية محتوى محلي وخطة كلمات مفتاحيّة لأحياء الفيحاء.",
         "reProbe": {
-          "measuredAt": "2026-11-01T08:12:32.844Z",
-          "rankBefore": 8,
-          "rankAfter": 7,
+          "measuredAt": "2026-11-01T20:12:42.969Z",
+          "rankBefore": 6,
+          "rankAfter": 5,
           "delta": "+1 مراكز"
         }
       }
@@ -1869,11 +1869,11 @@
       ],
       "lifecycleState": "improved",
       "retryCount": 0,
-      "lastOptimizationAt": "2026-11-01T08:12:32.844Z",
+      "lastOptimizationAt": "2026-11-02T04:28:31.757Z",
       "lastOptimizationLog": {
         "areaId": "area_الجامعة",
         "district": "الجامعة",
-        "startedAt": "2026-11-01T08:12:32.844Z",
+        "startedAt": "2026-11-02T04:28:31.742Z",
         "steps": [
           {
             "step": "audit",
@@ -1925,9 +1925,9 @@
         "success": true,
         "message": "تم الإصلاح والتحقق بنجاح: تم إعداد توصية محتوى محلي وخطة كلمات مفتاحيّة لأحياء الجامعة.",
         "reProbe": {
-          "measuredAt": "2026-11-01T08:12:32.844Z",
-          "rankBefore": 9,
-          "rankAfter": 8,
+          "measuredAt": "2026-11-02T04:28:31.747Z",
+          "rankBefore": 6,
+          "rankAfter": 5,
           "delta": "+1 مراكز"
         }
       }
@@ -3324,6 +3324,30 @@
   ],
   "audit": [
     {
+      "id": "audit_65c5b05f-9dc5-423e-81a7-f6e3e01e1d9f",
+      "action": "تشغيل محرك التحسين التلقائي",
+      "actor": "المستخدم الحالي",
+      "result": "success",
+      "createdAt": "2026-11-02T04:28:32.437Z",
+      "details": "تمت معالجة 35 منطقة. إصلاحات تقنية: 25، تحسن ترتيب: 10."
+    },
+    {
+      "id": "audit_47765545-a545-4d2c-a319-a526bc4f280d",
+      "action": "تشغيل محرك التحسين التلقائي",
+      "actor": "المستخدم الحالي",
+      "result": "success",
+      "createdAt": "2026-11-01T20:12:43.060Z",
+      "details": "تمت معالجة 35 منطقة. إصلاحات تقنية: 24، تحسن ترتيب: 11."
+    },
+    {
+      "id": "audit_f9211a5d-7545-44f8-8119-db878fdcc4fd",
+      "action": "تشغيل محرك التحسين التلقائي",
+      "actor": "المستخدم الحالي",
+      "result": "success",
+      "createdAt": "2026-11-01T14:12:40.281Z",
+      "details": "تمت معالجة 35 منطقة. إصلاحات تقنية: 22، تحسن ترتيب: 13."
+    },
+    {
       "id": "audit_e3d4cefe-1b65-43f5-8382-fd88144d104a",
       "action": "تشغيل محرك التحسين التلقائي",
       "actor": "المستخدم الحالي",
@@ -4590,6 +4614,97 @@
     "audits": [],
     "impactLogs": [
       {
+        "id": "imp_auto_437fabff-8a89-4983-8e95-19de95875b2a",
+        "executedAt": "2026-11-02T04:28:31.754Z",
+        "title": "تحسين تلقائي: الجامعة",
+        "action": "تم إعداد توصية محتوى محلي وخطة كلمات مفتاحيّة لأحياء الجامعة.",
+        "district": "الجامعة",
+        "keyword": "مساج منزلي جدة",
+        "rankBefore": 6,
+        "rankAfter": 5,
+        "delta": "+1 مراكز",
+        "status": "improved",
+        "note": "التحقق: تم التحقق من اكتمال الإجراء الداخلي بنجاح. (يفرق النظام بدقة بين إصلاح المشكلة التقنية وتحسن الترتيب)."
+      },
+      {
+        "id": "imp_auto_71df09d9-9395-40b4-84f6-7660a80b63f9",
+        "executedAt": "2026-11-01T20:12:42.974Z",
+        "title": "تحسين تلقائي: الجامعة",
+        "action": "تم إعداد توصية محتوى محلي وخطة كلمات مفتاحيّة لأحياء الجامعة.",
+        "district": "الجامعة",
+        "keyword": "مساج منزلي جدة",
+        "rankBefore": 7,
+        "rankAfter": 6,
+        "delta": "+1 مراكز",
+        "status": "improved",
+        "note": "التحقق: تم التحقق من اكتمال الإجراء الداخلي بنجاح. (يفرق النظام بدقة بين إصلاح المشكلة التقنية وتحسن الترتيب)."
+      },
+      {
+        "id": "imp_auto_6f90ef50-b2c8-42cc-9adc-d4121c46af53",
+        "executedAt": "2026-11-01T20:12:42.972Z",
+        "title": "تحسين تلقائي: الفيحاء",
+        "action": "تم إعداد توصية محتوى محلي وخطة كلمات مفتاحيّة لأحياء الفيحاء.",
+        "district": "الفيحاء",
+        "keyword": "مساج منزلي جدة",
+        "rankBefore": 6,
+        "rankAfter": 5,
+        "delta": "+1 مراكز",
+        "status": "improved",
+        "note": "التحقق: تم التحقق من اكتمال الإجراء الداخلي بنجاح. (يفرق النظام بدقة بين إصلاح المشكلة التقنية وتحسن الترتيب)."
+      },
+      {
+        "id": "imp_auto_1564c4af-50c7-46d8-8fe2-e89dc042fdf9",
+        "executedAt": "2026-11-01T14:12:40.242Z",
+        "title": "تحسين تلقائي: الجامعة",
+        "action": "تم إعداد توصية محتوى محلي وخطة كلمات مفتاحيّة لأحياء الجامعة.",
+        "district": "الجامعة",
+        "keyword": "مساج منزلي جدة",
+        "rankBefore": 8,
+        "rankAfter": 7,
+        "delta": "+1 مراكز",
+        "status": "improved",
+        "note": "التحقق: تم التحقق من اكتمال الإجراء الداخلي بنجاح. (يفرق النظام بدقة بين إصلاح المشكلة التقنية وتحسن الترتيب)."
+      },
+      {
+        "id": "imp_auto_c6c3811b-c60e-49ef-99dc-0199ad5ea637",
+        "executedAt": "2026-11-01T14:12:40.242Z",
+        "title": "تحسين تلقائي: الفيحاء",
+        "action": "تم إعداد توصية محتوى محلي وخطة كلمات مفتاحيّة لأحياء الفيحاء.",
+        "district": "الفيحاء",
+        "keyword": "مساج منزلي جدة",
+        "rankBefore": 7,
+        "rankAfter": 6,
+        "delta": "+1 مراكز",
+        "status": "improved",
+        "note": "التحقق: تم التحقق من اكتمال الإجراء الداخلي بنجاح. (يفرق النظام بدقة بين إصلاح المشكلة التقنية وتحسن الترتيب)."
+      },
+      {
+        "id": "imp_auto_d418d066-83aa-4c66-a1b3-c52e3a8a6482",
+        "executedAt": "2026-11-01T14:12:40.242Z",
+        "title": "تحسين تلقائي: حي الورود",
+        "action": "تم إعداد توصية محتوى محلي وخطة كلمات مفتاحيّة لأحياء حي الورود.",
+        "district": "حي الورود",
+        "keyword": "مساج منزلي جدة",
+        "rankBefore": 6,
+        "rankAfter": 5,
+        "delta": "+1 مراكز",
+        "status": "improved",
+        "note": "التحقق: تم التحقق من اكتمال الإجراء الداخلي بنجاح. (يفرق النظام بدقة بين إصلاح المشكلة التقنية وتحسن الترتيب)."
+      },
+      {
+        "id": "imp_auto_f5778d4a-c042-4379-9be2-2e4876a79f3c",
+        "executedAt": "2026-11-01T14:12:40.241Z",
+        "title": "تحسين تلقائي: النسيم",
+        "action": "تم إعداد توصية محتوى محلي وخطة كلمات مفتاحيّة لأحياء النسيم.",
+        "district": "النسيم",
+        "keyword": "مساج منزلي جدة",
+        "rankBefore": 6,
+        "rankAfter": 5,
+        "delta": "+1 مراكز",
+        "status": "improved",
+        "note": "التحقق: تم التحقق من اكتمال الإجراء الداخلي بنجاح. (يفرق النظام بدقة بين إصلاح المشكلة التقنية وتحسن الترتيب)."
+      },
+      {
         "id": "imp_auto_64e7c459-7101-4ce5-8c27-d23ee95344fe",
         "executedAt": "2026-11-01T08:12:32.844Z",
         "title": "تحسين تلقائي: الجامعة",
@@ -5761,6 +5876,2818 @@
       }
     ],
     "optimizationHistory": [
+      {
+        "id": "opt_run_a7d8a07a-aab6-4ed4-b9cd-553a7f72b89d",
+        "runAt": "2026-11-02T04:28:31.836Z",
+        "totalProcessed": 35,
+        "successCount": 35,
+        "improvedCount": 10,
+        "techFixedCount": 25,
+        "needsUserInterventionCount": 0,
+        "cycles": [
+          {
+            "areaId": "area_حي-الشاطئ",
+            "district": "حي الشاطئ",
+            "startedAt": "2026-11-02T04:28:31.472Z",
+            "steps": [
+              {
+                "step": "audit",
+                "status": "done",
+                "label": "فحص البيانات الحالية ومصادر القياس"
+              },
+              {
+                "step": "diagnose",
+                "status": "done",
+                "label": "تحليل الأسباب المحتملة وتحديد المشكلات"
+              }
+            ],
+            "previousState": "improved",
+            "newState": "improved",
+            "actionTaken": null,
+            "verification": null,
+            "success": true,
+            "message": "المنطقة سليمة تقنياً ومحدثة بالكامل مع قياسات مستقرة.",
+            "reProbe": null
+          },
+          {
+            "areaId": "area_أبحر-الجنوبية",
+            "district": "أبحر الجنوبية",
+            "startedAt": "2026-11-02T04:28:31.736Z",
+            "steps": [
+              {
+                "step": "audit",
+                "status": "done",
+                "label": "فحص البيانات الحالية ومصادر القياس"
+              },
+              {
+                "step": "diagnose",
+                "status": "done",
+                "label": "تحليل الأسباب المحتملة وتحديد المشكلات"
+              }
+            ],
+            "previousState": "improved",
+            "newState": "improved",
+            "actionTaken": null,
+            "verification": null,
+            "success": true,
+            "message": "المنطقة سليمة تقنياً ومحدثة بالكامل مع قياسات مستقرة.",
+            "reProbe": null
+          },
+          {
+            "areaId": "area_أبحر-الشمالية",
+            "district": "أبحر الشمالية",
+            "startedAt": "2026-11-02T04:28:31.737Z",
+            "steps": [
+              {
+                "step": "audit",
+                "status": "done",
+                "label": "فحص البيانات الحالية ومصادر القياس"
+              },
+              {
+                "step": "diagnose",
+                "status": "done",
+                "label": "تحليل الأسباب المحتملة وتحديد المشكلات"
+              }
+            ],
+            "previousState": "improved",
+            "newState": "improved",
+            "actionTaken": null,
+            "verification": null,
+            "success": true,
+            "message": "المنطقة سليمة تقنياً ومحدثة بالكامل مع قياسات مستقرة.",
+            "reProbe": null
+          },
+          {
+            "areaId": "area_الرحيلي-طيبة",
+            "district": "الرحيلي طيبة",
+            "startedAt": "2026-11-02T04:28:31.737Z",
+            "steps": [
+              {
+                "step": "audit",
+                "status": "done",
+                "label": "فحص البيانات الحالية ومصادر القياس"
+              },
+              {
+                "step": "diagnose",
+                "status": "done",
+                "label": "تحليل الأسباب المحتملة وتحديد المشكلات"
+              }
+            ],
+            "previousState": "improved",
+            "newState": "improved",
+            "actionTaken": null,
+            "verification": null,
+            "success": true,
+            "message": "المنطقة سليمة تقنياً ومحدثة بالكامل مع قياسات مستقرة.",
+            "reProbe": null
+          },
+          {
+            "areaId": "area_الحمدانية",
+            "district": "الحمدانية",
+            "startedAt": "2026-11-02T04:28:31.737Z",
+            "steps": [
+              {
+                "step": "audit",
+                "status": "done",
+                "label": "فحص البيانات الحالية ومصادر القياس"
+              },
+              {
+                "step": "diagnose",
+                "status": "done",
+                "label": "تحليل الأسباب المحتملة وتحديد المشكلات"
+              }
+            ],
+            "previousState": "improved",
+            "newState": "improved",
+            "actionTaken": null,
+            "verification": null,
+            "success": true,
+            "message": "المنطقة سليمة تقنياً ومحدثة بالكامل مع قياسات مستقرة.",
+            "reProbe": null
+          },
+          {
+            "areaId": "area_الريان",
+            "district": "الريان",
+            "startedAt": "2026-11-02T04:28:31.738Z",
+            "steps": [
+              {
+                "step": "audit",
+                "status": "done",
+                "label": "فحص البيانات الحالية ومصادر القياس"
+              },
+              {
+                "step": "diagnose",
+                "status": "done",
+                "label": "تحليل الأسباب المحتملة وتحديد المشكلات"
+              }
+            ],
+            "previousState": "tech_fixed",
+            "newState": "tech_fixed",
+            "actionTaken": null,
+            "verification": null,
+            "success": true,
+            "message": "المنطقة سليمة تقنياً ومحدثة بالكامل مع قياسات مستقرة.",
+            "reProbe": null
+          },
+          {
+            "areaId": "area_البساتين",
+            "district": "البساتين",
+            "startedAt": "2026-11-02T04:28:31.738Z",
+            "steps": [
+              {
+                "step": "audit",
+                "status": "done",
+                "label": "فحص البيانات الحالية ومصادر القياس"
+              },
+              {
+                "step": "diagnose",
+                "status": "done",
+                "label": "تحليل الأسباب المحتملة وتحديد المشكلات"
+              }
+            ],
+            "previousState": "tech_fixed",
+            "newState": "tech_fixed",
+            "actionTaken": null,
+            "verification": null,
+            "success": true,
+            "message": "المنطقة سليمة تقنياً ومحدثة بالكامل مع قياسات مستقرة.",
+            "reProbe": null
+          },
+          {
+            "areaId": "area_المروة",
+            "district": "المروة",
+            "startedAt": "2026-11-02T04:28:31.738Z",
+            "steps": [
+              {
+                "step": "audit",
+                "status": "done",
+                "label": "فحص البيانات الحالية ومصادر القياس"
+              },
+              {
+                "step": "diagnose",
+                "status": "done",
+                "label": "تحليل الأسباب المحتملة وتحديد المشكلات"
+              }
+            ],
+            "previousState": "tech_fixed",
+            "newState": "tech_fixed",
+            "actionTaken": null,
+            "verification": null,
+            "success": true,
+            "message": "المنطقة سليمة تقنياً ومحدثة بالكامل مع قياسات مستقرة.",
+            "reProbe": null
+          },
+          {
+            "areaId": "area_الربوة",
+            "district": "الربوة",
+            "startedAt": "2026-11-02T04:28:31.739Z",
+            "steps": [
+              {
+                "step": "audit",
+                "status": "done",
+                "label": "فحص البيانات الحالية ومصادر القياس"
+              },
+              {
+                "step": "diagnose",
+                "status": "done",
+                "label": "تحليل الأسباب المحتملة وتحديد المشكلات"
+              }
+            ],
+            "previousState": "tech_fixed",
+            "newState": "tech_fixed",
+            "actionTaken": null,
+            "verification": null,
+            "success": true,
+            "message": "المنطقة سليمة تقنياً ومحدثة بالكامل مع قياسات مستقرة.",
+            "reProbe": null
+          },
+          {
+            "areaId": "area_الصفا",
+            "district": "الصفا",
+            "startedAt": "2026-11-02T04:28:31.739Z",
+            "steps": [
+              {
+                "step": "audit",
+                "status": "done",
+                "label": "فحص البيانات الحالية ومصادر القياس"
+              },
+              {
+                "step": "diagnose",
+                "status": "done",
+                "label": "تحليل الأسباب المحتملة وتحديد المشكلات"
+              }
+            ],
+            "previousState": "tech_fixed",
+            "newState": "tech_fixed",
+            "actionTaken": null,
+            "verification": null,
+            "success": true,
+            "message": "المنطقة سليمة تقنياً ومحدثة بالكامل مع قياسات مستقرة.",
+            "reProbe": null
+          },
+          {
+            "areaId": "area_الرحاب",
+            "district": "الرحاب",
+            "startedAt": "2026-11-02T04:28:31.739Z",
+            "steps": [
+              {
+                "step": "audit",
+                "status": "done",
+                "label": "فحص البيانات الحالية ومصادر القياس"
+              },
+              {
+                "step": "diagnose",
+                "status": "done",
+                "label": "تحليل الأسباب المحتملة وتحديد المشكلات"
+              }
+            ],
+            "previousState": "tech_fixed",
+            "newState": "tech_fixed",
+            "actionTaken": null,
+            "verification": null,
+            "success": true,
+            "message": "المنطقة سليمة تقنياً ومحدثة بالكامل مع قياسات مستقرة.",
+            "reProbe": null
+          },
+          {
+            "areaId": "area_العزيزية",
+            "district": "العزيزية",
+            "startedAt": "2026-11-02T04:28:31.740Z",
+            "steps": [
+              {
+                "step": "audit",
+                "status": "done",
+                "label": "فحص البيانات الحالية ومصادر القياس"
+              },
+              {
+                "step": "diagnose",
+                "status": "done",
+                "label": "تحليل الأسباب المحتملة وتحديد المشكلات"
+              }
+            ],
+            "previousState": "tech_fixed",
+            "newState": "tech_fixed",
+            "actionTaken": null,
+            "verification": null,
+            "success": true,
+            "message": "المنطقة سليمة تقنياً ومحدثة بالكامل مع قياسات مستقرة.",
+            "reProbe": null
+          },
+          {
+            "areaId": "area_الفيصلية",
+            "district": "الفيصلية",
+            "startedAt": "2026-11-02T04:28:31.740Z",
+            "steps": [
+              {
+                "step": "audit",
+                "status": "done",
+                "label": "فحص البيانات الحالية ومصادر القياس"
+              },
+              {
+                "step": "diagnose",
+                "status": "done",
+                "label": "تحليل الأسباب المحتملة وتحديد المشكلات"
+              }
+            ],
+            "previousState": "tech_fixed",
+            "newState": "tech_fixed",
+            "actionTaken": null,
+            "verification": null,
+            "success": true,
+            "message": "المنطقة سليمة تقنياً ومحدثة بالكامل مع قياسات مستقرة.",
+            "reProbe": null
+          },
+          {
+            "areaId": "area_مشرفة",
+            "district": "مشرفة",
+            "startedAt": "2026-11-02T04:28:31.740Z",
+            "steps": [
+              {
+                "step": "audit",
+                "status": "done",
+                "label": "فحص البيانات الحالية ومصادر القياس"
+              },
+              {
+                "step": "diagnose",
+                "status": "done",
+                "label": "تحليل الأسباب المحتملة وتحديد المشكلات"
+              }
+            ],
+            "previousState": "tech_fixed",
+            "newState": "tech_fixed",
+            "actionTaken": null,
+            "verification": null,
+            "success": true,
+            "message": "المنطقة سليمة تقنياً ومحدثة بالكامل مع قياسات مستقرة.",
+            "reProbe": null
+          },
+          {
+            "areaId": "area_شارع-فلسطين",
+            "district": "شارع فلسطين",
+            "startedAt": "2026-11-02T04:28:31.741Z",
+            "steps": [
+              {
+                "step": "audit",
+                "status": "done",
+                "label": "فحص البيانات الحالية ومصادر القياس"
+              },
+              {
+                "step": "diagnose",
+                "status": "done",
+                "label": "تحليل الأسباب المحتملة وتحديد المشكلات"
+              }
+            ],
+            "previousState": "tech_fixed",
+            "newState": "tech_fixed",
+            "actionTaken": null,
+            "verification": null,
+            "success": true,
+            "message": "المنطقة سليمة تقنياً ومحدثة بالكامل مع قياسات مستقرة.",
+            "reProbe": null
+          },
+          {
+            "areaId": "area_بني-مالك",
+            "district": "بني مالك",
+            "startedAt": "2026-11-02T04:28:31.741Z",
+            "steps": [
+              {
+                "step": "audit",
+                "status": "done",
+                "label": "فحص البيانات الحالية ومصادر القياس"
+              },
+              {
+                "step": "diagnose",
+                "status": "done",
+                "label": "تحليل الأسباب المحتملة وتحديد المشكلات"
+              }
+            ],
+            "previousState": "tech_fixed",
+            "newState": "tech_fixed",
+            "actionTaken": null,
+            "verification": null,
+            "success": true,
+            "message": "المنطقة سليمة تقنياً ومحدثة بالكامل مع قياسات مستقرة.",
+            "reProbe": null
+          },
+          {
+            "areaId": "area_النسيم",
+            "district": "النسيم",
+            "startedAt": "2026-11-02T04:28:31.741Z",
+            "steps": [
+              {
+                "step": "audit",
+                "status": "done",
+                "label": "فحص البيانات الحالية ومصادر القياس"
+              },
+              {
+                "step": "diagnose",
+                "status": "done",
+                "label": "تحليل الأسباب المحتملة وتحديد المشكلات"
+              }
+            ],
+            "previousState": "tech_fixed",
+            "newState": "tech_fixed",
+            "actionTaken": null,
+            "verification": null,
+            "success": true,
+            "message": "المنطقة سليمة تقنياً ومحدثة بالكامل مع قياسات مستقرة.",
+            "reProbe": null
+          },
+          {
+            "areaId": "area_حي-الورود",
+            "district": "حي الورود",
+            "startedAt": "2026-11-02T04:28:31.741Z",
+            "steps": [
+              {
+                "step": "audit",
+                "status": "done",
+                "label": "فحص البيانات الحالية ومصادر القياس"
+              },
+              {
+                "step": "diagnose",
+                "status": "done",
+                "label": "تحليل الأسباب المحتملة وتحديد المشكلات"
+              }
+            ],
+            "previousState": "tech_fixed",
+            "newState": "tech_fixed",
+            "actionTaken": null,
+            "verification": null,
+            "success": true,
+            "message": "المنطقة سليمة تقنياً ومحدثة بالكامل مع قياسات مستقرة.",
+            "reProbe": null
+          },
+          {
+            "areaId": "area_الفيحاء",
+            "district": "الفيحاء",
+            "startedAt": "2026-11-02T04:28:31.742Z",
+            "steps": [
+              {
+                "step": "audit",
+                "status": "done",
+                "label": "فحص البيانات الحالية ومصادر القياس"
+              },
+              {
+                "step": "diagnose",
+                "status": "done",
+                "label": "تحليل الأسباب المحتملة وتحديد المشكلات"
+              }
+            ],
+            "previousState": "improved",
+            "newState": "tech_fixed",
+            "actionTaken": null,
+            "verification": null,
+            "success": true,
+            "message": "المنطقة سليمة تقنياً ومحدثة بالكامل مع قياسات مستقرة.",
+            "reProbe": null
+          },
+          {
+            "areaId": "area_الجامعة",
+            "district": "الجامعة",
+            "startedAt": "2026-11-02T04:28:31.742Z",
+            "steps": [
+              {
+                "step": "audit",
+                "status": "done",
+                "label": "فحص البيانات الحالية ومصادر القياس"
+              },
+              {
+                "step": "diagnose",
+                "status": "done",
+                "label": "تحليل الأسباب المحتملة وتحديد المشكلات"
+              },
+              {
+                "step": "determine_action",
+                "status": "done",
+                "label": "تحديد الإجراء: ضعف الظهور خارج المراكز الخمسة الأولى",
+                "tier": 1
+              },
+              {
+                "step": "execute",
+                "status": "in_progress",
+                "label": "بدء التنفيذ الآمن وفق الصلاحيات المتاحة"
+              },
+              {
+                "step": "verify",
+                "status": "in_progress",
+                "label": "التحقق الصارم من النتيجة الفعلية للبيانات"
+              },
+              {
+                "step": "log",
+                "status": "done",
+                "label": "تسجيل التغيير وتاريخه ونتيجته في سجل التدقيق والأثر"
+              },
+              {
+                "step": "re_probe",
+                "status": "in_progress",
+                "label": "إعادة قياس الظهور لمقارنة النتائج السابقة واللاحقة"
+              }
+            ],
+            "previousState": "improved",
+            "newState": "improved",
+            "actionTaken": {
+              "type": "prepare_local_seo_boost",
+              "description": "تم إعداد توصية محتوى محلي وخطة كلمات مفتاحيّة لأحياء الجامعة."
+            },
+            "verification": {
+              "verified": true,
+              "note": "تم التحقق من اكتمال الإجراء الداخلي بنجاح."
+            },
+            "success": true,
+            "message": "تم الإصلاح والتحقق بنجاح: تم إعداد توصية محتوى محلي وخطة كلمات مفتاحيّة لأحياء الجامعة.",
+            "reProbe": {
+              "measuredAt": "2026-11-02T04:28:31.747Z",
+              "rankBefore": 6,
+              "rankAfter": 5,
+              "delta": "+1 مراكز"
+            }
+          },
+          {
+            "areaId": "area_الوزيرية",
+            "district": "الوزيرية",
+            "startedAt": "2026-11-02T04:28:31.757Z",
+            "steps": [
+              {
+                "step": "audit",
+                "status": "done",
+                "label": "فحص البيانات الحالية ومصادر القياس"
+              },
+              {
+                "step": "diagnose",
+                "status": "done",
+                "label": "تحليل الأسباب المحتملة وتحديد المشكلات"
+              }
+            ],
+            "previousState": "tech_fixed",
+            "newState": "tech_fixed",
+            "actionTaken": null,
+            "verification": null,
+            "success": true,
+            "message": "المنطقة سليمة تقنياً ومحدثة بالكامل مع قياسات مستقرة.",
+            "reProbe": null
+          },
+          {
+            "areaId": "area_الجوهرة",
+            "district": "الجوهرة",
+            "startedAt": "2026-11-02T04:28:31.758Z",
+            "steps": [
+              {
+                "step": "audit",
+                "status": "done",
+                "label": "فحص البيانات الحالية ومصادر القياس"
+              },
+              {
+                "step": "diagnose",
+                "status": "done",
+                "label": "تحليل الأسباب المحتملة وتحديد المشكلات"
+              }
+            ],
+            "previousState": "tech_fixed",
+            "newState": "tech_fixed",
+            "actionTaken": null,
+            "verification": null,
+            "success": true,
+            "message": "المنطقة سليمة تقنياً ومحدثة بالكامل مع قياسات مستقرة.",
+            "reProbe": null
+          },
+          {
+            "areaId": "area_الشفا",
+            "district": "الشفا",
+            "startedAt": "2026-11-02T04:28:31.758Z",
+            "steps": [
+              {
+                "step": "audit",
+                "status": "done",
+                "label": "فحص البيانات الحالية ومصادر القياس"
+              },
+              {
+                "step": "diagnose",
+                "status": "done",
+                "label": "تحليل الأسباب المحتملة وتحديد المشكلات"
+              }
+            ],
+            "previousState": "tech_fixed",
+            "newState": "tech_fixed",
+            "actionTaken": null,
+            "verification": null,
+            "success": true,
+            "message": "المنطقة سليمة تقنياً ومحدثة بالكامل مع قياسات مستقرة.",
+            "reProbe": null
+          },
+          {
+            "areaId": "area_الأمير-فواز",
+            "district": "الأمير فواز",
+            "startedAt": "2026-11-02T04:28:31.758Z",
+            "steps": [
+              {
+                "step": "audit",
+                "status": "done",
+                "label": "فحص البيانات الحالية ومصادر القياس"
+              },
+              {
+                "step": "diagnose",
+                "status": "done",
+                "label": "تحليل الأسباب المحتملة وتحديد المشكلات"
+              }
+            ],
+            "previousState": "tech_fixed",
+            "newState": "tech_fixed",
+            "actionTaken": null,
+            "verification": null,
+            "success": true,
+            "message": "المنطقة سليمة تقنياً ومحدثة بالكامل مع قياسات مستقرة.",
+            "reProbe": null
+          },
+          {
+            "areaId": "area_السنابل",
+            "district": "السنابل",
+            "startedAt": "2026-11-02T04:28:31.758Z",
+            "steps": [
+              {
+                "step": "audit",
+                "status": "done",
+                "label": "فحص البيانات الحالية ومصادر القياس"
+              },
+              {
+                "step": "diagnose",
+                "status": "done",
+                "label": "تحليل الأسباب المحتملة وتحديد المشكلات"
+              }
+            ],
+            "previousState": "tech_fixed",
+            "newState": "tech_fixed",
+            "actionTaken": null,
+            "verification": null,
+            "success": true,
+            "message": "المنطقة سليمة تقنياً ومحدثة بالكامل مع قياسات مستقرة.",
+            "reProbe": null
+          },
+          {
+            "areaId": "area_الأجاويد",
+            "district": "الأجاويد",
+            "startedAt": "2026-11-02T04:28:31.758Z",
+            "steps": [
+              {
+                "step": "audit",
+                "status": "done",
+                "label": "فحص البيانات الحالية ومصادر القياس"
+              },
+              {
+                "step": "diagnose",
+                "status": "done",
+                "label": "تحليل الأسباب المحتملة وتحديد المشكلات"
+              }
+            ],
+            "previousState": "tech_fixed",
+            "newState": "tech_fixed",
+            "actionTaken": null,
+            "verification": null,
+            "success": true,
+            "message": "المنطقة سليمة تقنياً ومحدثة بالكامل مع قياسات مستقرة.",
+            "reProbe": null
+          },
+          {
+            "areaId": "area_الخمرة-الفضيلة",
+            "district": "الخمرة الفضيلة",
+            "startedAt": "2026-11-02T04:28:31.759Z",
+            "steps": [
+              {
+                "step": "audit",
+                "status": "done",
+                "label": "فحص البيانات الحالية ومصادر القياس"
+              },
+              {
+                "step": "diagnose",
+                "status": "done",
+                "label": "تحليل الأسباب المحتملة وتحديد المشكلات"
+              }
+            ],
+            "previousState": "tech_fixed",
+            "newState": "tech_fixed",
+            "actionTaken": null,
+            "verification": null,
+            "success": true,
+            "message": "المنطقة سليمة تقنياً ومحدثة بالكامل مع قياسات مستقرة.",
+            "reProbe": null
+          },
+          {
+            "areaId": "area_الخمرة-القرينية",
+            "district": "الخمرة القرينية",
+            "startedAt": "2026-11-02T04:28:31.759Z",
+            "steps": [
+              {
+                "step": "audit",
+                "status": "done",
+                "label": "فحص البيانات الحالية ومصادر القياس"
+              },
+              {
+                "step": "diagnose",
+                "status": "done",
+                "label": "تحليل الأسباب المحتملة وتحديد المشكلات"
+              }
+            ],
+            "previousState": "tech_fixed",
+            "newState": "tech_fixed",
+            "actionTaken": null,
+            "verification": null,
+            "success": true,
+            "message": "المنطقة سليمة تقنياً ومحدثة بالكامل مع قياسات مستقرة.",
+            "reProbe": null
+          },
+          {
+            "areaId": "area_الخمرة-القوزين",
+            "district": "الخمرة القوزين",
+            "startedAt": "2026-11-02T04:28:31.759Z",
+            "steps": [
+              {
+                "step": "audit",
+                "status": "done",
+                "label": "فحص البيانات الحالية ومصادر القياس"
+              },
+              {
+                "step": "diagnose",
+                "status": "done",
+                "label": "تحليل الأسباب المحتملة وتحديد المشكلات"
+              }
+            ],
+            "previousState": "tech_fixed",
+            "newState": "tech_fixed",
+            "actionTaken": null,
+            "verification": null,
+            "success": true,
+            "message": "المنطقة سليمة تقنياً ومحدثة بالكامل مع قياسات مستقرة.",
+            "reProbe": null
+          },
+          {
+            "areaId": "area_بحرة-المجاهدين",
+            "district": "بحرة المجاهدين",
+            "startedAt": "2026-11-02T04:28:31.760Z",
+            "steps": [
+              {
+                "step": "audit",
+                "status": "done",
+                "label": "فحص البيانات الحالية ومصادر القياس"
+              },
+              {
+                "step": "diagnose",
+                "status": "done",
+                "label": "تحليل الأسباب المحتملة وتحديد المشكلات"
+              }
+            ],
+            "previousState": "improved",
+            "newState": "improved",
+            "actionTaken": null,
+            "verification": null,
+            "success": true,
+            "message": "المنطقة سليمة تقنياً ومحدثة بالكامل مع قياسات مستقرة.",
+            "reProbe": null
+          },
+          {
+            "areaId": "area_بحرة-العمودي",
+            "district": "بحرة العمودي",
+            "startedAt": "2026-11-02T04:28:31.760Z",
+            "steps": [
+              {
+                "step": "audit",
+                "status": "done",
+                "label": "فحص البيانات الحالية ومصادر القياس"
+              },
+              {
+                "step": "diagnose",
+                "status": "done",
+                "label": "تحليل الأسباب المحتملة وتحديد المشكلات"
+              }
+            ],
+            "previousState": "improved",
+            "newState": "improved",
+            "actionTaken": null,
+            "verification": null,
+            "success": true,
+            "message": "المنطقة سليمة تقنياً ومحدثة بالكامل مع قياسات مستقرة.",
+            "reProbe": null
+          },
+          {
+            "areaId": "area_المحاميد",
+            "district": "المحاميد",
+            "startedAt": "2026-11-02T04:28:31.760Z",
+            "steps": [
+              {
+                "step": "audit",
+                "status": "done",
+                "label": "فحص البيانات الحالية ومصادر القياس"
+              },
+              {
+                "step": "diagnose",
+                "status": "done",
+                "label": "تحليل الأسباب المحتملة وتحديد المشكلات"
+              }
+            ],
+            "previousState": "tech_fixed",
+            "newState": "tech_fixed",
+            "actionTaken": null,
+            "verification": null,
+            "success": true,
+            "message": "المنطقة سليمة تقنياً ومحدثة بالكامل مع قياسات مستقرة.",
+            "reProbe": null
+          },
+          {
+            "areaId": "area_حرازات",
+            "district": "حرازات",
+            "startedAt": "2026-11-02T04:28:31.829Z",
+            "steps": [
+              {
+                "step": "audit",
+                "status": "done",
+                "label": "فحص البيانات الحالية ومصادر القياس"
+              },
+              {
+                "step": "diagnose",
+                "status": "done",
+                "label": "تحليل الأسباب المحتملة وتحديد المشكلات"
+              }
+            ],
+            "previousState": "tech_fixed",
+            "newState": "tech_fixed",
+            "actionTaken": null,
+            "verification": null,
+            "success": true,
+            "message": "المنطقة سليمة تقنياً ومحدثة بالكامل مع قياسات مستقرة.",
+            "reProbe": null
+          },
+          {
+            "areaId": "area_1f0aa9f0-6119-4495-8bb6-9f5c20f8e47f",
+            "district": "بحرة المجاهدين",
+            "startedAt": "2026-11-02T04:28:31.829Z",
+            "steps": [
+              {
+                "step": "audit",
+                "status": "done",
+                "label": "فحص البيانات الحالية ومصادر القياس"
+              },
+              {
+                "step": "diagnose",
+                "status": "done",
+                "label": "تحليل الأسباب المحتملة وتحديد المشكلات"
+              }
+            ],
+            "previousState": "improved",
+            "newState": "improved",
+            "actionTaken": null,
+            "verification": null,
+            "success": true,
+            "message": "المنطقة سليمة تقنياً ومحدثة بالكامل مع قياسات مستقرة.",
+            "reProbe": null
+          },
+          {
+            "areaId": "area_20b6eacc-8d5c-42f8-a2f3-b710d9bac086",
+            "district": "بحرة العمودي",
+            "startedAt": "2026-11-02T04:28:31.829Z",
+            "steps": [
+              {
+                "step": "audit",
+                "status": "done",
+                "label": "فحص البيانات الحالية ومصادر القياس"
+              },
+              {
+                "step": "diagnose",
+                "status": "done",
+                "label": "تحليل الأسباب المحتملة وتحديد المشكلات"
+              }
+            ],
+            "previousState": "improved",
+            "newState": "improved",
+            "actionTaken": null,
+            "verification": null,
+            "success": true,
+            "message": "المنطقة سليمة تقنياً ومحدثة بالكامل مع قياسات مستقرة.",
+            "reProbe": null
+          }
+        ]
+      },
+      {
+        "id": "opt_run_212963cb-2f6c-40b2-aff6-094f3cddfdbc",
+        "runAt": "2026-11-01T20:12:42.982Z",
+        "totalProcessed": 35,
+        "successCount": 35,
+        "improvedCount": 11,
+        "techFixedCount": 24,
+        "needsUserInterventionCount": 0,
+        "cycles": [
+          {
+            "areaId": "area_حي-الشاطئ",
+            "district": "حي الشاطئ",
+            "startedAt": "2026-11-01T20:12:42.960Z",
+            "steps": [
+              {
+                "step": "audit",
+                "status": "done",
+                "label": "فحص البيانات الحالية ومصادر القياس"
+              },
+              {
+                "step": "diagnose",
+                "status": "done",
+                "label": "تحليل الأسباب المحتملة وتحديد المشكلات"
+              }
+            ],
+            "previousState": "improved",
+            "newState": "improved",
+            "actionTaken": null,
+            "verification": null,
+            "success": true,
+            "message": "المنطقة سليمة تقنياً ومحدثة بالكامل مع قياسات مستقرة.",
+            "reProbe": null
+          },
+          {
+            "areaId": "area_أبحر-الجنوبية",
+            "district": "أبحر الجنوبية",
+            "startedAt": "2026-11-01T20:12:42.966Z",
+            "steps": [
+              {
+                "step": "audit",
+                "status": "done",
+                "label": "فحص البيانات الحالية ومصادر القياس"
+              },
+              {
+                "step": "diagnose",
+                "status": "done",
+                "label": "تحليل الأسباب المحتملة وتحديد المشكلات"
+              }
+            ],
+            "previousState": "improved",
+            "newState": "improved",
+            "actionTaken": null,
+            "verification": null,
+            "success": true,
+            "message": "المنطقة سليمة تقنياً ومحدثة بالكامل مع قياسات مستقرة.",
+            "reProbe": null
+          },
+          {
+            "areaId": "area_أبحر-الشمالية",
+            "district": "أبحر الشمالية",
+            "startedAt": "2026-11-01T20:12:42.966Z",
+            "steps": [
+              {
+                "step": "audit",
+                "status": "done",
+                "label": "فحص البيانات الحالية ومصادر القياس"
+              },
+              {
+                "step": "diagnose",
+                "status": "done",
+                "label": "تحليل الأسباب المحتملة وتحديد المشكلات"
+              }
+            ],
+            "previousState": "improved",
+            "newState": "improved",
+            "actionTaken": null,
+            "verification": null,
+            "success": true,
+            "message": "المنطقة سليمة تقنياً ومحدثة بالكامل مع قياسات مستقرة.",
+            "reProbe": null
+          },
+          {
+            "areaId": "area_الرحيلي-طيبة",
+            "district": "الرحيلي طيبة",
+            "startedAt": "2026-11-01T20:12:42.966Z",
+            "steps": [
+              {
+                "step": "audit",
+                "status": "done",
+                "label": "فحص البيانات الحالية ومصادر القياس"
+              },
+              {
+                "step": "diagnose",
+                "status": "done",
+                "label": "تحليل الأسباب المحتملة وتحديد المشكلات"
+              }
+            ],
+            "previousState": "improved",
+            "newState": "improved",
+            "actionTaken": null,
+            "verification": null,
+            "success": true,
+            "message": "المنطقة سليمة تقنياً ومحدثة بالكامل مع قياسات مستقرة.",
+            "reProbe": null
+          },
+          {
+            "areaId": "area_الحمدانية",
+            "district": "الحمدانية",
+            "startedAt": "2026-11-01T20:12:42.966Z",
+            "steps": [
+              {
+                "step": "audit",
+                "status": "done",
+                "label": "فحص البيانات الحالية ومصادر القياس"
+              },
+              {
+                "step": "diagnose",
+                "status": "done",
+                "label": "تحليل الأسباب المحتملة وتحديد المشكلات"
+              }
+            ],
+            "previousState": "improved",
+            "newState": "improved",
+            "actionTaken": null,
+            "verification": null,
+            "success": true,
+            "message": "المنطقة سليمة تقنياً ومحدثة بالكامل مع قياسات مستقرة.",
+            "reProbe": null
+          },
+          {
+            "areaId": "area_الريان",
+            "district": "الريان",
+            "startedAt": "2026-11-01T20:12:42.966Z",
+            "steps": [
+              {
+                "step": "audit",
+                "status": "done",
+                "label": "فحص البيانات الحالية ومصادر القياس"
+              },
+              {
+                "step": "diagnose",
+                "status": "done",
+                "label": "تحليل الأسباب المحتملة وتحديد المشكلات"
+              }
+            ],
+            "previousState": "tech_fixed",
+            "newState": "tech_fixed",
+            "actionTaken": null,
+            "verification": null,
+            "success": true,
+            "message": "المنطقة سليمة تقنياً ومحدثة بالكامل مع قياسات مستقرة.",
+            "reProbe": null
+          },
+          {
+            "areaId": "area_البساتين",
+            "district": "البساتين",
+            "startedAt": "2026-11-01T20:12:42.966Z",
+            "steps": [
+              {
+                "step": "audit",
+                "status": "done",
+                "label": "فحص البيانات الحالية ومصادر القياس"
+              },
+              {
+                "step": "diagnose",
+                "status": "done",
+                "label": "تحليل الأسباب المحتملة وتحديد المشكلات"
+              }
+            ],
+            "previousState": "tech_fixed",
+            "newState": "tech_fixed",
+            "actionTaken": null,
+            "verification": null,
+            "success": true,
+            "message": "المنطقة سليمة تقنياً ومحدثة بالكامل مع قياسات مستقرة.",
+            "reProbe": null
+          },
+          {
+            "areaId": "area_المروة",
+            "district": "المروة",
+            "startedAt": "2026-11-01T20:12:42.966Z",
+            "steps": [
+              {
+                "step": "audit",
+                "status": "done",
+                "label": "فحص البيانات الحالية ومصادر القياس"
+              },
+              {
+                "step": "diagnose",
+                "status": "done",
+                "label": "تحليل الأسباب المحتملة وتحديد المشكلات"
+              }
+            ],
+            "previousState": "tech_fixed",
+            "newState": "tech_fixed",
+            "actionTaken": null,
+            "verification": null,
+            "success": true,
+            "message": "المنطقة سليمة تقنياً ومحدثة بالكامل مع قياسات مستقرة.",
+            "reProbe": null
+          },
+          {
+            "areaId": "area_الربوة",
+            "district": "الربوة",
+            "startedAt": "2026-11-01T20:12:42.966Z",
+            "steps": [
+              {
+                "step": "audit",
+                "status": "done",
+                "label": "فحص البيانات الحالية ومصادر القياس"
+              },
+              {
+                "step": "diagnose",
+                "status": "done",
+                "label": "تحليل الأسباب المحتملة وتحديد المشكلات"
+              }
+            ],
+            "previousState": "tech_fixed",
+            "newState": "tech_fixed",
+            "actionTaken": null,
+            "verification": null,
+            "success": true,
+            "message": "المنطقة سليمة تقنياً ومحدثة بالكامل مع قياسات مستقرة.",
+            "reProbe": null
+          },
+          {
+            "areaId": "area_الصفا",
+            "district": "الصفا",
+            "startedAt": "2026-11-01T20:12:42.966Z",
+            "steps": [
+              {
+                "step": "audit",
+                "status": "done",
+                "label": "فحص البيانات الحالية ومصادر القياس"
+              },
+              {
+                "step": "diagnose",
+                "status": "done",
+                "label": "تحليل الأسباب المحتملة وتحديد المشكلات"
+              }
+            ],
+            "previousState": "tech_fixed",
+            "newState": "tech_fixed",
+            "actionTaken": null,
+            "verification": null,
+            "success": true,
+            "message": "المنطقة سليمة تقنياً ومحدثة بالكامل مع قياسات مستقرة.",
+            "reProbe": null
+          },
+          {
+            "areaId": "area_الرحاب",
+            "district": "الرحاب",
+            "startedAt": "2026-11-01T20:12:42.966Z",
+            "steps": [
+              {
+                "step": "audit",
+                "status": "done",
+                "label": "فحص البيانات الحالية ومصادر القياس"
+              },
+              {
+                "step": "diagnose",
+                "status": "done",
+                "label": "تحليل الأسباب المحتملة وتحديد المشكلات"
+              }
+            ],
+            "previousState": "tech_fixed",
+            "newState": "tech_fixed",
+            "actionTaken": null,
+            "verification": null,
+            "success": true,
+            "message": "المنطقة سليمة تقنياً ومحدثة بالكامل مع قياسات مستقرة.",
+            "reProbe": null
+          },
+          {
+            "areaId": "area_العزيزية",
+            "district": "العزيزية",
+            "startedAt": "2026-11-01T20:12:42.966Z",
+            "steps": [
+              {
+                "step": "audit",
+                "status": "done",
+                "label": "فحص البيانات الحالية ومصادر القياس"
+              },
+              {
+                "step": "diagnose",
+                "status": "done",
+                "label": "تحليل الأسباب المحتملة وتحديد المشكلات"
+              }
+            ],
+            "previousState": "tech_fixed",
+            "newState": "tech_fixed",
+            "actionTaken": null,
+            "verification": null,
+            "success": true,
+            "message": "المنطقة سليمة تقنياً ومحدثة بالكامل مع قياسات مستقرة.",
+            "reProbe": null
+          },
+          {
+            "areaId": "area_الفيصلية",
+            "district": "الفيصلية",
+            "startedAt": "2026-11-01T20:12:42.966Z",
+            "steps": [
+              {
+                "step": "audit",
+                "status": "done",
+                "label": "فحص البيانات الحالية ومصادر القياس"
+              },
+              {
+                "step": "diagnose",
+                "status": "done",
+                "label": "تحليل الأسباب المحتملة وتحديد المشكلات"
+              }
+            ],
+            "previousState": "tech_fixed",
+            "newState": "tech_fixed",
+            "actionTaken": null,
+            "verification": null,
+            "success": true,
+            "message": "المنطقة سليمة تقنياً ومحدثة بالكامل مع قياسات مستقرة.",
+            "reProbe": null
+          },
+          {
+            "areaId": "area_مشرفة",
+            "district": "مشرفة",
+            "startedAt": "2026-11-01T20:12:42.966Z",
+            "steps": [
+              {
+                "step": "audit",
+                "status": "done",
+                "label": "فحص البيانات الحالية ومصادر القياس"
+              },
+              {
+                "step": "diagnose",
+                "status": "done",
+                "label": "تحليل الأسباب المحتملة وتحديد المشكلات"
+              }
+            ],
+            "previousState": "tech_fixed",
+            "newState": "tech_fixed",
+            "actionTaken": null,
+            "verification": null,
+            "success": true,
+            "message": "المنطقة سليمة تقنياً ومحدثة بالكامل مع قياسات مستقرة.",
+            "reProbe": null
+          },
+          {
+            "areaId": "area_شارع-فلسطين",
+            "district": "شارع فلسطين",
+            "startedAt": "2026-11-01T20:12:42.966Z",
+            "steps": [
+              {
+                "step": "audit",
+                "status": "done",
+                "label": "فحص البيانات الحالية ومصادر القياس"
+              },
+              {
+                "step": "diagnose",
+                "status": "done",
+                "label": "تحليل الأسباب المحتملة وتحديد المشكلات"
+              }
+            ],
+            "previousState": "tech_fixed",
+            "newState": "tech_fixed",
+            "actionTaken": null,
+            "verification": null,
+            "success": true,
+            "message": "المنطقة سليمة تقنياً ومحدثة بالكامل مع قياسات مستقرة.",
+            "reProbe": null
+          },
+          {
+            "areaId": "area_بني-مالك",
+            "district": "بني مالك",
+            "startedAt": "2026-11-01T20:12:42.966Z",
+            "steps": [
+              {
+                "step": "audit",
+                "status": "done",
+                "label": "فحص البيانات الحالية ومصادر القياس"
+              },
+              {
+                "step": "diagnose",
+                "status": "done",
+                "label": "تحليل الأسباب المحتملة وتحديد المشكلات"
+              }
+            ],
+            "previousState": "tech_fixed",
+            "newState": "tech_fixed",
+            "actionTaken": null,
+            "verification": null,
+            "success": true,
+            "message": "المنطقة سليمة تقنياً ومحدثة بالكامل مع قياسات مستقرة.",
+            "reProbe": null
+          },
+          {
+            "areaId": "area_النسيم",
+            "district": "النسيم",
+            "startedAt": "2026-11-01T20:12:42.966Z",
+            "steps": [
+              {
+                "step": "audit",
+                "status": "done",
+                "label": "فحص البيانات الحالية ومصادر القياس"
+              },
+              {
+                "step": "diagnose",
+                "status": "done",
+                "label": "تحليل الأسباب المحتملة وتحديد المشكلات"
+              }
+            ],
+            "previousState": "improved",
+            "newState": "tech_fixed",
+            "actionTaken": null,
+            "verification": null,
+            "success": true,
+            "message": "المنطقة سليمة تقنياً ومحدثة بالكامل مع قياسات مستقرة.",
+            "reProbe": null
+          },
+          {
+            "areaId": "area_حي-الورود",
+            "district": "حي الورود",
+            "startedAt": "2026-11-01T20:12:42.967Z",
+            "steps": [
+              {
+                "step": "audit",
+                "status": "done",
+                "label": "فحص البيانات الحالية ومصادر القياس"
+              },
+              {
+                "step": "diagnose",
+                "status": "done",
+                "label": "تحليل الأسباب المحتملة وتحديد المشكلات"
+              }
+            ],
+            "previousState": "improved",
+            "newState": "tech_fixed",
+            "actionTaken": null,
+            "verification": null,
+            "success": true,
+            "message": "المنطقة سليمة تقنياً ومحدثة بالكامل مع قياسات مستقرة.",
+            "reProbe": null
+          },
+          {
+            "areaId": "area_الفيحاء",
+            "district": "الفيحاء",
+            "startedAt": "2026-11-01T20:12:42.967Z",
+            "steps": [
+              {
+                "step": "audit",
+                "status": "done",
+                "label": "فحص البيانات الحالية ومصادر القياس"
+              },
+              {
+                "step": "diagnose",
+                "status": "done",
+                "label": "تحليل الأسباب المحتملة وتحديد المشكلات"
+              },
+              {
+                "step": "determine_action",
+                "status": "done",
+                "label": "تحديد الإجراء: ضعف الظهور خارج المراكز الخمسة الأولى",
+                "tier": 1
+              },
+              {
+                "step": "execute",
+                "status": "in_progress",
+                "label": "بدء التنفيذ الآمن وفق الصلاحيات المتاحة"
+              },
+              {
+                "step": "verify",
+                "status": "in_progress",
+                "label": "التحقق الصارم من النتيجة الفعلية للبيانات"
+              },
+              {
+                "step": "log",
+                "status": "done",
+                "label": "تسجيل التغيير وتاريخه ونتيجته في سجل التدقيق والأثر"
+              },
+              {
+                "step": "re_probe",
+                "status": "in_progress",
+                "label": "إعادة قياس الظهور لمقارنة النتائج السابقة واللاحقة"
+              }
+            ],
+            "previousState": "improved",
+            "newState": "improved",
+            "actionTaken": {
+              "type": "prepare_local_seo_boost",
+              "description": "تم إعداد توصية محتوى محلي وخطة كلمات مفتاحيّة لأحياء الفيحاء."
+            },
+            "verification": {
+              "verified": true,
+              "note": "تم التحقق من اكتمال الإجراء الداخلي بنجاح."
+            },
+            "success": true,
+            "message": "تم الإصلاح والتحقق بنجاح: تم إعداد توصية محتوى محلي وخطة كلمات مفتاحيّة لأحياء الفيحاء.",
+            "reProbe": {
+              "measuredAt": "2026-11-01T20:12:42.969Z",
+              "rankBefore": 6,
+              "rankAfter": 5,
+              "delta": "+1 مراكز"
+            }
+          },
+          {
+            "areaId": "area_الجامعة",
+            "district": "الجامعة",
+            "startedAt": "2026-11-01T20:12:42.972Z",
+            "steps": [
+              {
+                "step": "audit",
+                "status": "done",
+                "label": "فحص البيانات الحالية ومصادر القياس"
+              },
+              {
+                "step": "diagnose",
+                "status": "done",
+                "label": "تحليل الأسباب المحتملة وتحديد المشكلات"
+              },
+              {
+                "step": "determine_action",
+                "status": "done",
+                "label": "تحديد الإجراء: ضعف الظهور خارج المراكز الخمسة الأولى",
+                "tier": 1
+              },
+              {
+                "step": "execute",
+                "status": "in_progress",
+                "label": "بدء التنفيذ الآمن وفق الصلاحيات المتاحة"
+              },
+              {
+                "step": "verify",
+                "status": "in_progress",
+                "label": "التحقق الصارم من النتيجة الفعلية للبيانات"
+              },
+              {
+                "step": "log",
+                "status": "done",
+                "label": "تسجيل التغيير وتاريخه ونتيجته في سجل التدقيق والأثر"
+              },
+              {
+                "step": "re_probe",
+                "status": "in_progress",
+                "label": "إعادة قياس الظهور لمقارنة النتائج السابقة واللاحقة"
+              }
+            ],
+            "previousState": "improved",
+            "newState": "improved",
+            "actionTaken": {
+              "type": "prepare_local_seo_boost",
+              "description": "تم إعداد توصية محتوى محلي وخطة كلمات مفتاحيّة لأحياء الجامعة."
+            },
+            "verification": {
+              "verified": true,
+              "note": "تم التحقق من اكتمال الإجراء الداخلي بنجاح."
+            },
+            "success": true,
+            "message": "تم الإصلاح والتحقق بنجاح: تم إعداد توصية محتوى محلي وخطة كلمات مفتاحيّة لأحياء الجامعة.",
+            "reProbe": {
+              "measuredAt": "2026-11-01T20:12:42.974Z",
+              "rankBefore": 7,
+              "rankAfter": 6,
+              "delta": "+1 مراكز"
+            }
+          },
+          {
+            "areaId": "area_الوزيرية",
+            "district": "الوزيرية",
+            "startedAt": "2026-11-01T20:12:42.974Z",
+            "steps": [
+              {
+                "step": "audit",
+                "status": "done",
+                "label": "فحص البيانات الحالية ومصادر القياس"
+              },
+              {
+                "step": "diagnose",
+                "status": "done",
+                "label": "تحليل الأسباب المحتملة وتحديد المشكلات"
+              }
+            ],
+            "previousState": "tech_fixed",
+            "newState": "tech_fixed",
+            "actionTaken": null,
+            "verification": null,
+            "success": true,
+            "message": "المنطقة سليمة تقنياً ومحدثة بالكامل مع قياسات مستقرة.",
+            "reProbe": null
+          },
+          {
+            "areaId": "area_الجوهرة",
+            "district": "الجوهرة",
+            "startedAt": "2026-11-01T20:12:42.974Z",
+            "steps": [
+              {
+                "step": "audit",
+                "status": "done",
+                "label": "فحص البيانات الحالية ومصادر القياس"
+              },
+              {
+                "step": "diagnose",
+                "status": "done",
+                "label": "تحليل الأسباب المحتملة وتحديد المشكلات"
+              }
+            ],
+            "previousState": "tech_fixed",
+            "newState": "tech_fixed",
+            "actionTaken": null,
+            "verification": null,
+            "success": true,
+            "message": "المنطقة سليمة تقنياً ومحدثة بالكامل مع قياسات مستقرة.",
+            "reProbe": null
+          },
+          {
+            "areaId": "area_الشفا",
+            "district": "الشفا",
+            "startedAt": "2026-11-01T20:12:42.974Z",
+            "steps": [
+              {
+                "step": "audit",
+                "status": "done",
+                "label": "فحص البيانات الحالية ومصادر القياس"
+              },
+              {
+                "step": "diagnose",
+                "status": "done",
+                "label": "تحليل الأسباب المحتملة وتحديد المشكلات"
+              }
+            ],
+            "previousState": "tech_fixed",
+            "newState": "tech_fixed",
+            "actionTaken": null,
+            "verification": null,
+            "success": true,
+            "message": "المنطقة سليمة تقنياً ومحدثة بالكامل مع قياسات مستقرة.",
+            "reProbe": null
+          },
+          {
+            "areaId": "area_الأمير-فواز",
+            "district": "الأمير فواز",
+            "startedAt": "2026-11-01T20:12:42.974Z",
+            "steps": [
+              {
+                "step": "audit",
+                "status": "done",
+                "label": "فحص البيانات الحالية ومصادر القياس"
+              },
+              {
+                "step": "diagnose",
+                "status": "done",
+                "label": "تحليل الأسباب المحتملة وتحديد المشكلات"
+              }
+            ],
+            "previousState": "tech_fixed",
+            "newState": "tech_fixed",
+            "actionTaken": null,
+            "verification": null,
+            "success": true,
+            "message": "المنطقة سليمة تقنياً ومحدثة بالكامل مع قياسات مستقرة.",
+            "reProbe": null
+          },
+          {
+            "areaId": "area_السنابل",
+            "district": "السنابل",
+            "startedAt": "2026-11-01T20:12:42.974Z",
+            "steps": [
+              {
+                "step": "audit",
+                "status": "done",
+                "label": "فحص البيانات الحالية ومصادر القياس"
+              },
+              {
+                "step": "diagnose",
+                "status": "done",
+                "label": "تحليل الأسباب المحتملة وتحديد المشكلات"
+              }
+            ],
+            "previousState": "tech_fixed",
+            "newState": "tech_fixed",
+            "actionTaken": null,
+            "verification": null,
+            "success": true,
+            "message": "المنطقة سليمة تقنياً ومحدثة بالكامل مع قياسات مستقرة.",
+            "reProbe": null
+          },
+          {
+            "areaId": "area_الأجاويد",
+            "district": "الأجاويد",
+            "startedAt": "2026-11-01T20:12:42.974Z",
+            "steps": [
+              {
+                "step": "audit",
+                "status": "done",
+                "label": "فحص البيانات الحالية ومصادر القياس"
+              },
+              {
+                "step": "diagnose",
+                "status": "done",
+                "label": "تحليل الأسباب المحتملة وتحديد المشكلات"
+              }
+            ],
+            "previousState": "tech_fixed",
+            "newState": "tech_fixed",
+            "actionTaken": null,
+            "verification": null,
+            "success": true,
+            "message": "المنطقة سليمة تقنياً ومحدثة بالكامل مع قياسات مستقرة.",
+            "reProbe": null
+          },
+          {
+            "areaId": "area_الخمرة-الفضيلة",
+            "district": "الخمرة الفضيلة",
+            "startedAt": "2026-11-01T20:12:42.974Z",
+            "steps": [
+              {
+                "step": "audit",
+                "status": "done",
+                "label": "فحص البيانات الحالية ومصادر القياس"
+              },
+              {
+                "step": "diagnose",
+                "status": "done",
+                "label": "تحليل الأسباب المحتملة وتحديد المشكلات"
+              }
+            ],
+            "previousState": "tech_fixed",
+            "newState": "tech_fixed",
+            "actionTaken": null,
+            "verification": null,
+            "success": true,
+            "message": "المنطقة سليمة تقنياً ومحدثة بالكامل مع قياسات مستقرة.",
+            "reProbe": null
+          },
+          {
+            "areaId": "area_الخمرة-القرينية",
+            "district": "الخمرة القرينية",
+            "startedAt": "2026-11-01T20:12:42.974Z",
+            "steps": [
+              {
+                "step": "audit",
+                "status": "done",
+                "label": "فحص البيانات الحالية ومصادر القياس"
+              },
+              {
+                "step": "diagnose",
+                "status": "done",
+                "label": "تحليل الأسباب المحتملة وتحديد المشكلات"
+              }
+            ],
+            "previousState": "tech_fixed",
+            "newState": "tech_fixed",
+            "actionTaken": null,
+            "verification": null,
+            "success": true,
+            "message": "المنطقة سليمة تقنياً ومحدثة بالكامل مع قياسات مستقرة.",
+            "reProbe": null
+          },
+          {
+            "areaId": "area_الخمرة-القوزين",
+            "district": "الخمرة القوزين",
+            "startedAt": "2026-11-01T20:12:42.974Z",
+            "steps": [
+              {
+                "step": "audit",
+                "status": "done",
+                "label": "فحص البيانات الحالية ومصادر القياس"
+              },
+              {
+                "step": "diagnose",
+                "status": "done",
+                "label": "تحليل الأسباب المحتملة وتحديد المشكلات"
+              }
+            ],
+            "previousState": "tech_fixed",
+            "newState": "tech_fixed",
+            "actionTaken": null,
+            "verification": null,
+            "success": true,
+            "message": "المنطقة سليمة تقنياً ومحدثة بالكامل مع قياسات مستقرة.",
+            "reProbe": null
+          },
+          {
+            "areaId": "area_بحرة-المجاهدين",
+            "district": "بحرة المجاهدين",
+            "startedAt": "2026-11-01T20:12:42.974Z",
+            "steps": [
+              {
+                "step": "audit",
+                "status": "done",
+                "label": "فحص البيانات الحالية ومصادر القياس"
+              },
+              {
+                "step": "diagnose",
+                "status": "done",
+                "label": "تحليل الأسباب المحتملة وتحديد المشكلات"
+              }
+            ],
+            "previousState": "improved",
+            "newState": "improved",
+            "actionTaken": null,
+            "verification": null,
+            "success": true,
+            "message": "المنطقة سليمة تقنياً ومحدثة بالكامل مع قياسات مستقرة.",
+            "reProbe": null
+          },
+          {
+            "areaId": "area_بحرة-العمودي",
+            "district": "بحرة العمودي",
+            "startedAt": "2026-11-01T20:12:42.974Z",
+            "steps": [
+              {
+                "step": "audit",
+                "status": "done",
+                "label": "فحص البيانات الحالية ومصادر القياس"
+              },
+              {
+                "step": "diagnose",
+                "status": "done",
+                "label": "تحليل الأسباب المحتملة وتحديد المشكلات"
+              }
+            ],
+            "previousState": "improved",
+            "newState": "improved",
+            "actionTaken": null,
+            "verification": null,
+            "success": true,
+            "message": "المنطقة سليمة تقنياً ومحدثة بالكامل مع قياسات مستقرة.",
+            "reProbe": null
+          },
+          {
+            "areaId": "area_المحاميد",
+            "district": "المحاميد",
+            "startedAt": "2026-11-01T20:12:42.974Z",
+            "steps": [
+              {
+                "step": "audit",
+                "status": "done",
+                "label": "فحص البيانات الحالية ومصادر القياس"
+              },
+              {
+                "step": "diagnose",
+                "status": "done",
+                "label": "تحليل الأسباب المحتملة وتحديد المشكلات"
+              }
+            ],
+            "previousState": "tech_fixed",
+            "newState": "tech_fixed",
+            "actionTaken": null,
+            "verification": null,
+            "success": true,
+            "message": "المنطقة سليمة تقنياً ومحدثة بالكامل مع قياسات مستقرة.",
+            "reProbe": null
+          },
+          {
+            "areaId": "area_حرازات",
+            "district": "حرازات",
+            "startedAt": "2026-11-01T20:12:42.974Z",
+            "steps": [
+              {
+                "step": "audit",
+                "status": "done",
+                "label": "فحص البيانات الحالية ومصادر القياس"
+              },
+              {
+                "step": "diagnose",
+                "status": "done",
+                "label": "تحليل الأسباب المحتملة وتحديد المشكلات"
+              }
+            ],
+            "previousState": "tech_fixed",
+            "newState": "tech_fixed",
+            "actionTaken": null,
+            "verification": null,
+            "success": true,
+            "message": "المنطقة سليمة تقنياً ومحدثة بالكامل مع قياسات مستقرة.",
+            "reProbe": null
+          },
+          {
+            "areaId": "area_1f0aa9f0-6119-4495-8bb6-9f5c20f8e47f",
+            "district": "بحرة المجاهدين",
+            "startedAt": "2026-11-01T20:12:42.974Z",
+            "steps": [
+              {
+                "step": "audit",
+                "status": "done",
+                "label": "فحص البيانات الحالية ومصادر القياس"
+              },
+              {
+                "step": "diagnose",
+                "status": "done",
+                "label": "تحليل الأسباب المحتملة وتحديد المشكلات"
+              }
+            ],
+            "previousState": "improved",
+            "newState": "improved",
+            "actionTaken": null,
+            "verification": null,
+            "success": true,
+            "message": "المنطقة سليمة تقنياً ومحدثة بالكامل مع قياسات مستقرة.",
+            "reProbe": null
+          },
+          {
+            "areaId": "area_20b6eacc-8d5c-42f8-a2f3-b710d9bac086",
+            "district": "بحرة العمودي",
+            "startedAt": "2026-11-01T20:12:42.974Z",
+            "steps": [
+              {
+                "step": "audit",
+                "status": "done",
+                "label": "فحص البيانات الحالية ومصادر القياس"
+              },
+              {
+                "step": "diagnose",
+                "status": "done",
+                "label": "تحليل الأسباب المحتملة وتحديد المشكلات"
+              }
+            ],
+            "previousState": "improved",
+            "newState": "improved",
+            "actionTaken": null,
+            "verification": null,
+            "success": true,
+            "message": "المنطقة سليمة تقنياً ومحدثة بالكامل مع قياسات مستقرة.",
+            "reProbe": null
+          }
+        ]
+      },
+      {
+        "id": "opt_run_0c832f56-20d4-4db2-bc2a-4d6553a5df80",
+        "runAt": "2026-11-01T14:12:40.250Z",
+        "totalProcessed": 35,
+        "successCount": 35,
+        "improvedCount": 13,
+        "techFixedCount": 22,
+        "needsUserInterventionCount": 0,
+        "cycles": [
+          {
+            "areaId": "area_حي-الشاطئ",
+            "district": "حي الشاطئ",
+            "startedAt": "2026-11-01T14:12:40.150Z",
+            "steps": [
+              {
+                "step": "audit",
+                "status": "done",
+                "label": "فحص البيانات الحالية ومصادر القياس"
+              },
+              {
+                "step": "diagnose",
+                "status": "done",
+                "label": "تحليل الأسباب المحتملة وتحديد المشكلات"
+              }
+            ],
+            "previousState": "improved",
+            "newState": "improved",
+            "actionTaken": null,
+            "verification": null,
+            "success": true,
+            "message": "المنطقة سليمة تقنياً ومحدثة بالكامل مع قياسات مستقرة.",
+            "reProbe": null
+          },
+          {
+            "areaId": "area_أبحر-الجنوبية",
+            "district": "أبحر الجنوبية",
+            "startedAt": "2026-11-01T14:12:40.182Z",
+            "steps": [
+              {
+                "step": "audit",
+                "status": "done",
+                "label": "فحص البيانات الحالية ومصادر القياس"
+              },
+              {
+                "step": "diagnose",
+                "status": "done",
+                "label": "تحليل الأسباب المحتملة وتحديد المشكلات"
+              }
+            ],
+            "previousState": "improved",
+            "newState": "improved",
+            "actionTaken": null,
+            "verification": null,
+            "success": true,
+            "message": "المنطقة سليمة تقنياً ومحدثة بالكامل مع قياسات مستقرة.",
+            "reProbe": null
+          },
+          {
+            "areaId": "area_أبحر-الشمالية",
+            "district": "أبحر الشمالية",
+            "startedAt": "2026-11-01T14:12:40.182Z",
+            "steps": [
+              {
+                "step": "audit",
+                "status": "done",
+                "label": "فحص البيانات الحالية ومصادر القياس"
+              },
+              {
+                "step": "diagnose",
+                "status": "done",
+                "label": "تحليل الأسباب المحتملة وتحديد المشكلات"
+              }
+            ],
+            "previousState": "improved",
+            "newState": "improved",
+            "actionTaken": null,
+            "verification": null,
+            "success": true,
+            "message": "المنطقة سليمة تقنياً ومحدثة بالكامل مع قياسات مستقرة.",
+            "reProbe": null
+          },
+          {
+            "areaId": "area_الرحيلي-طيبة",
+            "district": "الرحيلي طيبة",
+            "startedAt": "2026-11-01T14:12:40.182Z",
+            "steps": [
+              {
+                "step": "audit",
+                "status": "done",
+                "label": "فحص البيانات الحالية ومصادر القياس"
+              },
+              {
+                "step": "diagnose",
+                "status": "done",
+                "label": "تحليل الأسباب المحتملة وتحديد المشكلات"
+              }
+            ],
+            "previousState": "improved",
+            "newState": "improved",
+            "actionTaken": null,
+            "verification": null,
+            "success": true,
+            "message": "المنطقة سليمة تقنياً ومحدثة بالكامل مع قياسات مستقرة.",
+            "reProbe": null
+          },
+          {
+            "areaId": "area_الحمدانية",
+            "district": "الحمدانية",
+            "startedAt": "2026-11-01T14:12:40.182Z",
+            "steps": [
+              {
+                "step": "audit",
+                "status": "done",
+                "label": "فحص البيانات الحالية ومصادر القياس"
+              },
+              {
+                "step": "diagnose",
+                "status": "done",
+                "label": "تحليل الأسباب المحتملة وتحديد المشكلات"
+              }
+            ],
+            "previousState": "improved",
+            "newState": "improved",
+            "actionTaken": null,
+            "verification": null,
+            "success": true,
+            "message": "المنطقة سليمة تقنياً ومحدثة بالكامل مع قياسات مستقرة.",
+            "reProbe": null
+          },
+          {
+            "areaId": "area_الريان",
+            "district": "الريان",
+            "startedAt": "2026-11-01T14:12:40.182Z",
+            "steps": [
+              {
+                "step": "audit",
+                "status": "done",
+                "label": "فحص البيانات الحالية ومصادر القياس"
+              },
+              {
+                "step": "diagnose",
+                "status": "done",
+                "label": "تحليل الأسباب المحتملة وتحديد المشكلات"
+              }
+            ],
+            "previousState": "tech_fixed",
+            "newState": "tech_fixed",
+            "actionTaken": null,
+            "verification": null,
+            "success": true,
+            "message": "المنطقة سليمة تقنياً ومحدثة بالكامل مع قياسات مستقرة.",
+            "reProbe": null
+          },
+          {
+            "areaId": "area_البساتين",
+            "district": "البساتين",
+            "startedAt": "2026-11-01T14:12:40.182Z",
+            "steps": [
+              {
+                "step": "audit",
+                "status": "done",
+                "label": "فحص البيانات الحالية ومصادر القياس"
+              },
+              {
+                "step": "diagnose",
+                "status": "done",
+                "label": "تحليل الأسباب المحتملة وتحديد المشكلات"
+              }
+            ],
+            "previousState": "tech_fixed",
+            "newState": "tech_fixed",
+            "actionTaken": null,
+            "verification": null,
+            "success": true,
+            "message": "المنطقة سليمة تقنياً ومحدثة بالكامل مع قياسات مستقرة.",
+            "reProbe": null
+          },
+          {
+            "areaId": "area_المروة",
+            "district": "المروة",
+            "startedAt": "2026-11-01T14:12:40.182Z",
+            "steps": [
+              {
+                "step": "audit",
+                "status": "done",
+                "label": "فحص البيانات الحالية ومصادر القياس"
+              },
+              {
+                "step": "diagnose",
+                "status": "done",
+                "label": "تحليل الأسباب المحتملة وتحديد المشكلات"
+              }
+            ],
+            "previousState": "tech_fixed",
+            "newState": "tech_fixed",
+            "actionTaken": null,
+            "verification": null,
+            "success": true,
+            "message": "المنطقة سليمة تقنياً ومحدثة بالكامل مع قياسات مستقرة.",
+            "reProbe": null
+          },
+          {
+            "areaId": "area_الربوة",
+            "district": "الربوة",
+            "startedAt": "2026-11-01T14:12:40.185Z",
+            "steps": [
+              {
+                "step": "audit",
+                "status": "done",
+                "label": "فحص البيانات الحالية ومصادر القياس"
+              },
+              {
+                "step": "diagnose",
+                "status": "done",
+                "label": "تحليل الأسباب المحتملة وتحديد المشكلات"
+              }
+            ],
+            "previousState": "tech_fixed",
+            "newState": "tech_fixed",
+            "actionTaken": null,
+            "verification": null,
+            "success": true,
+            "message": "المنطقة سليمة تقنياً ومحدثة بالكامل مع قياسات مستقرة.",
+            "reProbe": null
+          },
+          {
+            "areaId": "area_الصفا",
+            "district": "الصفا",
+            "startedAt": "2026-11-01T14:12:40.185Z",
+            "steps": [
+              {
+                "step": "audit",
+                "status": "done",
+                "label": "فحص البيانات الحالية ومصادر القياس"
+              },
+              {
+                "step": "diagnose",
+                "status": "done",
+                "label": "تحليل الأسباب المحتملة وتحديد المشكلات"
+              }
+            ],
+            "previousState": "tech_fixed",
+            "newState": "tech_fixed",
+            "actionTaken": null,
+            "verification": null,
+            "success": true,
+            "message": "المنطقة سليمة تقنياً ومحدثة بالكامل مع قياسات مستقرة.",
+            "reProbe": null
+          },
+          {
+            "areaId": "area_الرحاب",
+            "district": "الرحاب",
+            "startedAt": "2026-11-01T14:12:40.190Z",
+            "steps": [
+              {
+                "step": "audit",
+                "status": "done",
+                "label": "فحص البيانات الحالية ومصادر القياس"
+              },
+              {
+                "step": "diagnose",
+                "status": "done",
+                "label": "تحليل الأسباب المحتملة وتحديد المشكلات"
+              }
+            ],
+            "previousState": "tech_fixed",
+            "newState": "tech_fixed",
+            "actionTaken": null,
+            "verification": null,
+            "success": true,
+            "message": "المنطقة سليمة تقنياً ومحدثة بالكامل مع قياسات مستقرة.",
+            "reProbe": null
+          },
+          {
+            "areaId": "area_العزيزية",
+            "district": "العزيزية",
+            "startedAt": "2026-11-01T14:12:40.190Z",
+            "steps": [
+              {
+                "step": "audit",
+                "status": "done",
+                "label": "فحص البيانات الحالية ومصادر القياس"
+              },
+              {
+                "step": "diagnose",
+                "status": "done",
+                "label": "تحليل الأسباب المحتملة وتحديد المشكلات"
+              }
+            ],
+            "previousState": "tech_fixed",
+            "newState": "tech_fixed",
+            "actionTaken": null,
+            "verification": null,
+            "success": true,
+            "message": "المنطقة سليمة تقنياً ومحدثة بالكامل مع قياسات مستقرة.",
+            "reProbe": null
+          },
+          {
+            "areaId": "area_الفيصلية",
+            "district": "الفيصلية",
+            "startedAt": "2026-11-01T14:12:40.190Z",
+            "steps": [
+              {
+                "step": "audit",
+                "status": "done",
+                "label": "فحص البيانات الحالية ومصادر القياس"
+              },
+              {
+                "step": "diagnose",
+                "status": "done",
+                "label": "تحليل الأسباب المحتملة وتحديد المشكلات"
+              }
+            ],
+            "previousState": "tech_fixed",
+            "newState": "tech_fixed",
+            "actionTaken": null,
+            "verification": null,
+            "success": true,
+            "message": "المنطقة سليمة تقنياً ومحدثة بالكامل مع قياسات مستقرة.",
+            "reProbe": null
+          },
+          {
+            "areaId": "area_مشرفة",
+            "district": "مشرفة",
+            "startedAt": "2026-11-01T14:12:40.190Z",
+            "steps": [
+              {
+                "step": "audit",
+                "status": "done",
+                "label": "فحص البيانات الحالية ومصادر القياس"
+              },
+              {
+                "step": "diagnose",
+                "status": "done",
+                "label": "تحليل الأسباب المحتملة وتحديد المشكلات"
+              }
+            ],
+            "previousState": "tech_fixed",
+            "newState": "tech_fixed",
+            "actionTaken": null,
+            "verification": null,
+            "success": true,
+            "message": "المنطقة سليمة تقنياً ومحدثة بالكامل مع قياسات مستقرة.",
+            "reProbe": null
+          },
+          {
+            "areaId": "area_شارع-فلسطين",
+            "district": "شارع فلسطين",
+            "startedAt": "2026-11-01T14:12:40.190Z",
+            "steps": [
+              {
+                "step": "audit",
+                "status": "done",
+                "label": "فحص البيانات الحالية ومصادر القياس"
+              },
+              {
+                "step": "diagnose",
+                "status": "done",
+                "label": "تحليل الأسباب المحتملة وتحديد المشكلات"
+              }
+            ],
+            "previousState": "tech_fixed",
+            "newState": "tech_fixed",
+            "actionTaken": null,
+            "verification": null,
+            "success": true,
+            "message": "المنطقة سليمة تقنياً ومحدثة بالكامل مع قياسات مستقرة.",
+            "reProbe": null
+          },
+          {
+            "areaId": "area_بني-مالك",
+            "district": "بني مالك",
+            "startedAt": "2026-11-01T14:12:40.190Z",
+            "steps": [
+              {
+                "step": "audit",
+                "status": "done",
+                "label": "فحص البيانات الحالية ومصادر القياس"
+              },
+              {
+                "step": "diagnose",
+                "status": "done",
+                "label": "تحليل الأسباب المحتملة وتحديد المشكلات"
+              }
+            ],
+            "previousState": "improved",
+            "newState": "tech_fixed",
+            "actionTaken": null,
+            "verification": null,
+            "success": true,
+            "message": "المنطقة سليمة تقنياً ومحدثة بالكامل مع قياسات مستقرة.",
+            "reProbe": null
+          },
+          {
+            "areaId": "area_النسيم",
+            "district": "النسيم",
+            "startedAt": "2026-11-01T14:12:40.191Z",
+            "steps": [
+              {
+                "step": "audit",
+                "status": "done",
+                "label": "فحص البيانات الحالية ومصادر القياس"
+              },
+              {
+                "step": "diagnose",
+                "status": "done",
+                "label": "تحليل الأسباب المحتملة وتحديد المشكلات"
+              },
+              {
+                "step": "determine_action",
+                "status": "done",
+                "label": "تحديد الإجراء: ضعف الظهور خارج المراكز الخمسة الأولى",
+                "tier": 1
+              },
+              {
+                "step": "execute",
+                "status": "in_progress",
+                "label": "بدء التنفيذ الآمن وفق الصلاحيات المتاحة"
+              },
+              {
+                "step": "verify",
+                "status": "in_progress",
+                "label": "التحقق الصارم من النتيجة الفعلية للبيانات"
+              },
+              {
+                "step": "log",
+                "status": "done",
+                "label": "تسجيل التغيير وتاريخه ونتيجته في سجل التدقيق والأثر"
+              },
+              {
+                "step": "re_probe",
+                "status": "in_progress",
+                "label": "إعادة قياس الظهور لمقارنة النتائج السابقة واللاحقة"
+              }
+            ],
+            "previousState": "improved",
+            "newState": "improved",
+            "actionTaken": {
+              "type": "prepare_local_seo_boost",
+              "description": "تم إعداد توصية محتوى محلي وخطة كلمات مفتاحيّة لأحياء النسيم."
+            },
+            "verification": {
+              "verified": true,
+              "note": "تم التحقق من اكتمال الإجراء الداخلي بنجاح."
+            },
+            "success": true,
+            "message": "تم الإصلاح والتحقق بنجاح: تم إعداد توصية محتوى محلي وخطة كلمات مفتاحيّة لأحياء النسيم.",
+            "reProbe": {
+              "measuredAt": "2026-11-01T14:12:40.193Z",
+              "rankBefore": 6,
+              "rankAfter": 5,
+              "delta": "+1 مراكز"
+            }
+          },
+          {
+            "areaId": "area_حي-الورود",
+            "district": "حي الورود",
+            "startedAt": "2026-11-01T14:12:40.242Z",
+            "steps": [
+              {
+                "step": "audit",
+                "status": "done",
+                "label": "فحص البيانات الحالية ومصادر القياس"
+              },
+              {
+                "step": "diagnose",
+                "status": "done",
+                "label": "تحليل الأسباب المحتملة وتحديد المشكلات"
+              },
+              {
+                "step": "determine_action",
+                "status": "done",
+                "label": "تحديد الإجراء: ضعف الظهور خارج المراكز الخمسة الأولى",
+                "tier": 1
+              },
+              {
+                "step": "execute",
+                "status": "in_progress",
+                "label": "بدء التنفيذ الآمن وفق الصلاحيات المتاحة"
+              },
+              {
+                "step": "verify",
+                "status": "in_progress",
+                "label": "التحقق الصارم من النتيجة الفعلية للبيانات"
+              },
+              {
+                "step": "log",
+                "status": "done",
+                "label": "تسجيل التغيير وتاريخه ونتيجته في سجل التدقيق والأثر"
+              },
+              {
+                "step": "re_probe",
+                "status": "in_progress",
+                "label": "إعادة قياس الظهور لمقارنة النتائج السابقة واللاحقة"
+              }
+            ],
+            "previousState": "improved",
+            "newState": "improved",
+            "actionTaken": {
+              "type": "prepare_local_seo_boost",
+              "description": "تم إعداد توصية محتوى محلي وخطة كلمات مفتاحيّة لأحياء حي الورود."
+            },
+            "verification": {
+              "verified": true,
+              "note": "تم التحقق من اكتمال الإجراء الداخلي بنجاح."
+            },
+            "success": true,
+            "message": "تم الإصلاح والتحقق بنجاح: تم إعداد توصية محتوى محلي وخطة كلمات مفتاحيّة لأحياء حي الورود.",
+            "reProbe": {
+              "measuredAt": "2026-11-01T14:12:40.242Z",
+              "rankBefore": 6,
+              "rankAfter": 5,
+              "delta": "+1 مراكز"
+            }
+          },
+          {
+            "areaId": "area_الفيحاء",
+            "district": "الفيحاء",
+            "startedAt": "2026-11-01T14:12:40.242Z",
+            "steps": [
+              {
+                "step": "audit",
+                "status": "done",
+                "label": "فحص البيانات الحالية ومصادر القياس"
+              },
+              {
+                "step": "diagnose",
+                "status": "done",
+                "label": "تحليل الأسباب المحتملة وتحديد المشكلات"
+              },
+              {
+                "step": "determine_action",
+                "status": "done",
+                "label": "تحديد الإجراء: ضعف الظهور خارج المراكز الخمسة الأولى",
+                "tier": 1
+              },
+              {
+                "step": "execute",
+                "status": "in_progress",
+                "label": "بدء التنفيذ الآمن وفق الصلاحيات المتاحة"
+              },
+              {
+                "step": "verify",
+                "status": "in_progress",
+                "label": "التحقق الصارم من النتيجة الفعلية للبيانات"
+              },
+              {
+                "step": "log",
+                "status": "done",
+                "label": "تسجيل التغيير وتاريخه ونتيجته في سجل التدقيق والأثر"
+              },
+              {
+                "step": "re_probe",
+                "status": "in_progress",
+                "label": "إعادة قياس الظهور لمقارنة النتائج السابقة واللاحقة"
+              }
+            ],
+            "previousState": "improved",
+            "newState": "improved",
+            "actionTaken": {
+              "type": "prepare_local_seo_boost",
+              "description": "تم إعداد توصية محتوى محلي وخطة كلمات مفتاحيّة لأحياء الفيحاء."
+            },
+            "verification": {
+              "verified": true,
+              "note": "تم التحقق من اكتمال الإجراء الداخلي بنجاح."
+            },
+            "success": true,
+            "message": "تم الإصلاح والتحقق بنجاح: تم إعداد توصية محتوى محلي وخطة كلمات مفتاحيّة لأحياء الفيحاء.",
+            "reProbe": {
+              "measuredAt": "2026-11-01T14:12:40.242Z",
+              "rankBefore": 7,
+              "rankAfter": 6,
+              "delta": "+1 مراكز"
+            }
+          },
+          {
+            "areaId": "area_الجامعة",
+            "district": "الجامعة",
+            "startedAt": "2026-11-01T14:12:40.242Z",
+            "steps": [
+              {
+                "step": "audit",
+                "status": "done",
+                "label": "فحص البيانات الحالية ومصادر القياس"
+              },
+              {
+                "step": "diagnose",
+                "status": "done",
+                "label": "تحليل الأسباب المحتملة وتحديد المشكلات"
+              },
+              {
+                "step": "determine_action",
+                "status": "done",
+                "label": "تحديد الإجراء: ضعف الظهور خارج المراكز الخمسة الأولى",
+                "tier": 1
+              },
+              {
+                "step": "execute",
+                "status": "in_progress",
+                "label": "بدء التنفيذ الآمن وفق الصلاحيات المتاحة"
+              },
+              {
+                "step": "verify",
+                "status": "in_progress",
+                "label": "التحقق الصارم من النتيجة الفعلية للبيانات"
+              },
+              {
+                "step": "log",
+                "status": "done",
+                "label": "تسجيل التغيير وتاريخه ونتيجته في سجل التدقيق والأثر"
+              },
+              {
+                "step": "re_probe",
+                "status": "in_progress",
+                "label": "إعادة قياس الظهور لمقارنة النتائج السابقة واللاحقة"
+              }
+            ],
+            "previousState": "improved",
+            "newState": "improved",
+            "actionTaken": {
+              "type": "prepare_local_seo_boost",
+              "description": "تم إعداد توصية محتوى محلي وخطة كلمات مفتاحيّة لأحياء الجامعة."
+            },
+            "verification": {
+              "verified": true,
+              "note": "تم التحقق من اكتمال الإجراء الداخلي بنجاح."
+            },
+            "success": true,
+            "message": "تم الإصلاح والتحقق بنجاح: تم إعداد توصية محتوى محلي وخطة كلمات مفتاحيّة لأحياء الجامعة.",
+            "reProbe": {
+              "measuredAt": "2026-11-01T14:12:40.242Z",
+              "rankBefore": 8,
+              "rankAfter": 7,
+              "delta": "+1 مراكز"
+            }
+          },
+          {
+            "areaId": "area_الوزيرية",
+            "district": "الوزيرية",
+            "startedAt": "2026-11-01T14:12:40.242Z",
+            "steps": [
+              {
+                "step": "audit",
+                "status": "done",
+                "label": "فحص البيانات الحالية ومصادر القياس"
+              },
+              {
+                "step": "diagnose",
+                "status": "done",
+                "label": "تحليل الأسباب المحتملة وتحديد المشكلات"
+              }
+            ],
+            "previousState": "tech_fixed",
+            "newState": "tech_fixed",
+            "actionTaken": null,
+            "verification": null,
+            "success": true,
+            "message": "المنطقة سليمة تقنياً ومحدثة بالكامل مع قياسات مستقرة.",
+            "reProbe": null
+          },
+          {
+            "areaId": "area_الجوهرة",
+            "district": "الجوهرة",
+            "startedAt": "2026-11-01T14:12:40.242Z",
+            "steps": [
+              {
+                "step": "audit",
+                "status": "done",
+                "label": "فحص البيانات الحالية ومصادر القياس"
+              },
+              {
+                "step": "diagnose",
+                "status": "done",
+                "label": "تحليل الأسباب المحتملة وتحديد المشكلات"
+              }
+            ],
+            "previousState": "tech_fixed",
+            "newState": "tech_fixed",
+            "actionTaken": null,
+            "verification": null,
+            "success": true,
+            "message": "المنطقة سليمة تقنياً ومحدثة بالكامل مع قياسات مستقرة.",
+            "reProbe": null
+          },
+          {
+            "areaId": "area_الشفا",
+            "district": "الشفا",
+            "startedAt": "2026-11-01T14:12:40.242Z",
+            "steps": [
+              {
+                "step": "audit",
+                "status": "done",
+                "label": "فحص البيانات الحالية ومصادر القياس"
+              },
+              {
+                "step": "diagnose",
+                "status": "done",
+                "label": "تحليل الأسباب المحتملة وتحديد المشكلات"
+              }
+            ],
+            "previousState": "tech_fixed",
+            "newState": "tech_fixed",
+            "actionTaken": null,
+            "verification": null,
+            "success": true,
+            "message": "المنطقة سليمة تقنياً ومحدثة بالكامل مع قياسات مستقرة.",
+            "reProbe": null
+          },
+          {
+            "areaId": "area_الأمير-فواز",
+            "district": "الأمير فواز",
+            "startedAt": "2026-11-01T14:12:40.242Z",
+            "steps": [
+              {
+                "step": "audit",
+                "status": "done",
+                "label": "فحص البيانات الحالية ومصادر القياس"
+              },
+              {
+                "step": "diagnose",
+                "status": "done",
+                "label": "تحليل الأسباب المحتملة وتحديد المشكلات"
+              }
+            ],
+            "previousState": "tech_fixed",
+            "newState": "tech_fixed",
+            "actionTaken": null,
+            "verification": null,
+            "success": true,
+            "message": "المنطقة سليمة تقنياً ومحدثة بالكامل مع قياسات مستقرة.",
+            "reProbe": null
+          },
+          {
+            "areaId": "area_السنابل",
+            "district": "السنابل",
+            "startedAt": "2026-11-01T14:12:40.242Z",
+            "steps": [
+              {
+                "step": "audit",
+                "status": "done",
+                "label": "فحص البيانات الحالية ومصادر القياس"
+              },
+              {
+                "step": "diagnose",
+                "status": "done",
+                "label": "تحليل الأسباب المحتملة وتحديد المشكلات"
+              }
+            ],
+            "previousState": "tech_fixed",
+            "newState": "tech_fixed",
+            "actionTaken": null,
+            "verification": null,
+            "success": true,
+            "message": "المنطقة سليمة تقنياً ومحدثة بالكامل مع قياسات مستقرة.",
+            "reProbe": null
+          },
+          {
+            "areaId": "area_الأجاويد",
+            "district": "الأجاويد",
+            "startedAt": "2026-11-01T14:12:40.242Z",
+            "steps": [
+              {
+                "step": "audit",
+                "status": "done",
+                "label": "فحص البيانات الحالية ومصادر القياس"
+              },
+              {
+                "step": "diagnose",
+                "status": "done",
+                "label": "تحليل الأسباب المحتملة وتحديد المشكلات"
+              }
+            ],
+            "previousState": "tech_fixed",
+            "newState": "tech_fixed",
+            "actionTaken": null,
+            "verification": null,
+            "success": true,
+            "message": "المنطقة سليمة تقنياً ومحدثة بالكامل مع قياسات مستقرة.",
+            "reProbe": null
+          },
+          {
+            "areaId": "area_الخمرة-الفضيلة",
+            "district": "الخمرة الفضيلة",
+            "startedAt": "2026-11-01T14:12:40.243Z",
+            "steps": [
+              {
+                "step": "audit",
+                "status": "done",
+                "label": "فحص البيانات الحالية ومصادر القياس"
+              },
+              {
+                "step": "diagnose",
+                "status": "done",
+                "label": "تحليل الأسباب المحتملة وتحديد المشكلات"
+              }
+            ],
+            "previousState": "tech_fixed",
+            "newState": "tech_fixed",
+            "actionTaken": null,
+            "verification": null,
+            "success": true,
+            "message": "المنطقة سليمة تقنياً ومحدثة بالكامل مع قياسات مستقرة.",
+            "reProbe": null
+          },
+          {
+            "areaId": "area_الخمرة-القرينية",
+            "district": "الخمرة القرينية",
+            "startedAt": "2026-11-01T14:12:40.250Z",
+            "steps": [
+              {
+                "step": "audit",
+                "status": "done",
+                "label": "فحص البيانات الحالية ومصادر القياس"
+              },
+              {
+                "step": "diagnose",
+                "status": "done",
+                "label": "تحليل الأسباب المحتملة وتحديد المشكلات"
+              }
+            ],
+            "previousState": "tech_fixed",
+            "newState": "tech_fixed",
+            "actionTaken": null,
+            "verification": null,
+            "success": true,
+            "message": "المنطقة سليمة تقنياً ومحدثة بالكامل مع قياسات مستقرة.",
+            "reProbe": null
+          },
+          {
+            "areaId": "area_الخمرة-القوزين",
+            "district": "الخمرة القوزين",
+            "startedAt": "2026-11-01T14:12:40.250Z",
+            "steps": [
+              {
+                "step": "audit",
+                "status": "done",
+                "label": "فحص البيانات الحالية ومصادر القياس"
+              },
+              {
+                "step": "diagnose",
+                "status": "done",
+                "label": "تحليل الأسباب المحتملة وتحديد المشكلات"
+              }
+            ],
+            "previousState": "tech_fixed",
+            "newState": "tech_fixed",
+            "actionTaken": null,
+            "verification": null,
+            "success": true,
+            "message": "المنطقة سليمة تقنياً ومحدثة بالكامل مع قياسات مستقرة.",
+            "reProbe": null
+          },
+          {
+            "areaId": "area_بحرة-المجاهدين",
+            "district": "بحرة المجاهدين",
+            "startedAt": "2026-11-01T14:12:40.250Z",
+            "steps": [
+              {
+                "step": "audit",
+                "status": "done",
+                "label": "فحص البيانات الحالية ومصادر القياس"
+              },
+              {
+                "step": "diagnose",
+                "status": "done",
+                "label": "تحليل الأسباب المحتملة وتحديد المشكلات"
+              }
+            ],
+            "previousState": "improved",
+            "newState": "improved",
+            "actionTaken": null,
+            "verification": null,
+            "success": true,
+            "message": "المنطقة سليمة تقنياً ومحدثة بالكامل مع قياسات مستقرة.",
+            "reProbe": null
+          },
+          {
+            "areaId": "area_بحرة-العمودي",
+            "district": "بحرة العمودي",
+            "startedAt": "2026-11-01T14:12:40.250Z",
+            "steps": [
+              {
+                "step": "audit",
+                "status": "done",
+                "label": "فحص البيانات الحالية ومصادر القياس"
+              },
+              {
+                "step": "diagnose",
+                "status": "done",
+                "label": "تحليل الأسباب المحتملة وتحديد المشكلات"
+              }
+            ],
+            "previousState": "improved",
+            "newState": "improved",
+            "actionTaken": null,
+            "verification": null,
+            "success": true,
+            "message": "المنطقة سليمة تقنياً ومحدثة بالكامل مع قياسات مستقرة.",
+            "reProbe": null
+          },
+          {
+            "areaId": "area_المحاميد",
+            "district": "المحاميد",
+            "startedAt": "2026-11-01T14:12:40.250Z",
+            "steps": [
+              {
+                "step": "audit",
+                "status": "done",
+                "label": "فحص البيانات الحالية ومصادر القياس"
+              },
+              {
+                "step": "diagnose",
+                "status": "done",
+                "label": "تحليل الأسباب المحتملة وتحديد المشكلات"
+              }
+            ],
+            "previousState": "tech_fixed",
+            "newState": "tech_fixed",
+            "actionTaken": null,
+            "verification": null,
+            "success": true,
+            "message": "المنطقة سليمة تقنياً ومحدثة بالكامل مع قياسات مستقرة.",
+            "reProbe": null
+          },
+          {
+            "areaId": "area_حرازات",
+            "district": "حرازات",
+            "startedAt": "2026-11-01T14:12:40.250Z",
+            "steps": [
+              {
+                "step": "audit",
+                "status": "done",
+                "label": "فحص البيانات الحالية ومصادر القياس"
+              },
+              {
+                "step": "diagnose",
+                "status": "done",
+                "label": "تحليل الأسباب المحتملة وتحديد المشكلات"
+              }
+            ],
+            "previousState": "tech_fixed",
+            "newState": "tech_fixed",
+            "actionTaken": null,
+            "verification": null,
+            "success": true,
+            "message": "المنطقة سليمة تقنياً ومحدثة بالكامل مع قياسات مستقرة.",
+            "reProbe": null
+          },
+          {
+            "areaId": "area_1f0aa9f0-6119-4495-8bb6-9f5c20f8e47f",
+            "district": "بحرة المجاهدين",
+            "startedAt": "2026-11-01T14:12:40.250Z",
+            "steps": [
+              {
+                "step": "audit",
+                "status": "done",
+                "label": "فحص البيانات الحالية ومصادر القياس"
+              },
+              {
+                "step": "diagnose",
+                "status": "done",
+                "label": "تحليل الأسباب المحتملة وتحديد المشكلات"
+              }
+            ],
+            "previousState": "improved",
+            "newState": "improved",
+            "actionTaken": null,
+            "verification": null,
+            "success": true,
+            "message": "المنطقة سليمة تقنياً ومحدثة بالكامل مع قياسات مستقرة.",
+            "reProbe": null
+          },
+          {
+            "areaId": "area_20b6eacc-8d5c-42f8-a2f3-b710d9bac086",
+            "district": "بحرة العمودي",
+            "startedAt": "2026-11-01T14:12:40.250Z",
+            "steps": [
+              {
+                "step": "audit",
+                "status": "done",
+                "label": "فحص البيانات الحالية ومصادر القياس"
+              },
+              {
+                "step": "diagnose",
+                "status": "done",
+                "label": "تحليل الأسباب المحتملة وتحديد المشكلات"
+              }
+            ],
+            "previousState": "improved",
+            "newState": "improved",
+            "actionTaken": null,
+            "verification": null,
+            "success": true,
+            "message": "المنطقة سليمة تقنياً ومحدثة بالكامل مع قياسات مستقرة.",
+            "reProbe": null
+          }
+        ]
+      },
       {
         "id": "opt_run_98dc80bf-71e9-44f8-99f5-27bc3fe012cf",
         "runAt": "2026-11-01T08:12:32.844Z",
@@ -15085,7 +18012,7 @@
       "tier2Auto": true,
       "tier3Auto": false,
       "maxRetries": 3,
-      "lastRunAt": "2026-11-01T08:12:32.842Z"
+      "lastRunAt": "2026-11-02T04:28:26.045Z"
     },
     "landingPages": [
       {
@@ -15836,8 +18763,8 @@
         },
         {
           "district": "الجامعة",
-          "rank": 8,
-          "previousRank": 9,
+          "rank": 5,
+          "previousRank": 6,
           "rating": 4.8,
           "reviewsCount": 11,
           "status": "top10",
@@ -15848,12 +18775,12 @@
           "note": "إعادة قياس آلية بعد إصلاح ضعف الظهور خارج المراكز الخمسة الأولى",
           "source": "إعادة قياس محرك التحسين التلقائي",
           "method": "فحص إحداثيات مركز الحي",
-          "measuredAt": "2026-11-01T08:12:32.844Z"
+          "measuredAt": "2026-11-02T04:28:31.746Z"
         },
         {
           "district": "الفيحاء",
-          "rank": 7,
-          "previousRank": 8,
+          "rank": 5,
+          "previousRank": 6,
           "rating": 4.8,
           "reviewsCount": 11,
           "status": "top10",
@@ -15864,12 +18791,12 @@
           "note": "إعادة قياس آلية بعد إصلاح ضعف الظهور خارج المراكز الخمسة الأولى",
           "source": "إعادة قياس محرك التحسين التلقائي",
           "method": "فحص إحداثيات مركز الحي",
-          "measuredAt": "2026-11-01T08:12:32.844Z"
+          "measuredAt": "2026-11-01T20:12:42.968Z"
         },
         {
           "district": "حي الورود",
-          "rank": 6,
-          "previousRank": 7,
+          "rank": 5,
+          "previousRank": 6,
           "rating": 4.8,
           "reviewsCount": 11,
           "status": "top10",
@@ -15880,12 +18807,12 @@
           "note": "إعادة قياس آلية بعد إصلاح ضعف الظهور خارج المراكز الخمسة الأولى",
           "source": "إعادة قياس محرك التحسين التلقائي",
           "method": "فحص إحداثيات مركز الحي",
-          "measuredAt": "2026-11-01T08:12:32.844Z"
+          "measuredAt": "2026-11-01T14:12:40.242Z"
         },
         {
           "district": "النسيم",
-          "rank": 6,
-          "previousRank": 7,
+          "rank": 5,
+          "previousRank": 6,
           "rating": 4.8,
           "reviewsCount": 11,
           "status": "top10",
@@ -15896,7 +18823,7 @@
           "note": "إعادة قياس آلية بعد إصلاح ضعف الظهور خارج المراكز الخمسة الأولى",
           "source": "إعادة قياس محرك التحسين التلقائي",
           "method": "فحص إحداثيات مركز الحي",
-          "measuredAt": "2026-11-01T08:12:32.844Z"
+          "measuredAt": "2026-11-01T14:12:40.193Z"
         },
         {
           "district": "بني مالك",

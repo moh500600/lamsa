@@ -393,7 +393,24 @@ function baseState() {
       googleMapsUrl: '', googleLocationId: '', updatedAt: now()
     },
     onboarding: { businessId, userId: 'usr_owner', completed: false, currentStep: 0, lastSavedAt: null, answers: { basics: { nameAr: 'مساج منزلي في جدة', nameEn: 'Jeddah Home Massage', category: 'خدمات المساج والعناية المنزلية', city: 'جدة', country: 'السعودية', deliveryMode: 'mobile', hasWebsite: false, hasGoogleProfile: false }, services: { services: ['مساج سويدي','مساج استرخاء','مساج رياضي'], coreServices: [], targetClients: '', differentiator: '', duration: '', languages: ['العربية'], hours: 'يوميًا 10:00 ص — 12:00 ص', requiresBooking: true, bookingMethods: [], pricesPublic: false, constraints: '' }, contacts: { phone: '', whatsapp: '', email: '', website: '', preferred: 'whatsapp', socials: { instagram: '', snapchat: '' } }, identity: { logo: '', photos: [], description: '', about: '', serviceDescriptions: '' }, google: { hasProfile: false, profileUrl: '', canManage: false, connectNow: false, verified: 'unknown' }, coverage: { primaryCity: 'جدة', selectedAreas: [], excludedAreas: '', travelLimits: '', sameServices: true, deferred: false }, seo: { focusServices: [], priorityAreas: [], keywords: [], websitePages: '', competitors: [], goal: 'زيادة الحجوزات' } } },
-    areas: seedAreas.map((district, index) => ({ id: `area_${slug(district)}`, city: district.startsWith('بحرة') ? 'بحرة' : 'جدة', district, country: 'السعودية', latitude: null, longitude: null, status: 'needs_review', source: 'seed', notes: '', createdAt: now(), updatedAt: now(), businessId })),
+    areas: seedAreas.map((district, index) => {
+    const d = district.trim()
+    const c = jeddahCoords[d] || jeddahCoords[d.replace(/^حي\s+/, '')] || jeddahCoords['حي ' + d] || null
+    return {
+      id: `area_${slug(district)}`,
+      city: district.startsWith('بحرة') ? 'بحرة' : 'جدة',
+      district,
+      country: 'السعودية',
+      latitude: c ? c.lat : 21.5433,
+      longitude: c ? c.lng : 39.1728,
+      status: 'active',
+      source: 'seed',
+      notes: '',
+      createdAt: now(),
+      updatedAt: now(),
+      businessId
+    }
+  }),
     google: { status: 'not_configured', accountEmail: '', locationId: '', mapsUrl: '', lastSyncAt: null, lastError: '' },
     tasks: [
       { id: 'task_seed_review', type: 'مراجعة قائمة الأحياء الأولية', status: 'completed', attempts: 1, createdAt: now(), finishedAt: now(), result: { imported: 33 } },
@@ -491,6 +508,14 @@ function defaultVisibilityScans() {
 
 function loadState() {
   try {
+    const defaultDataPath = path.join(root, 'data', 'runtime.default.json')
+    if (!fs.existsSync(statePath) && fs.existsSync(defaultDataPath)) {
+      try {
+        fs.copyFileSync(defaultDataPath, statePath)
+      } catch (e) {
+        console.warn('Failed to copy runtime.default.json:', e.message)
+      }
+    }
     if (fs.existsSync(statePath)) {
       const stored = JSON.parse(fs.readFileSync(statePath, 'utf8'))
       if (!stored.onboarding) stored.onboarding = baseState().onboarding
@@ -538,9 +563,10 @@ function loadState() {
             area.services = ['مساج استرخاء', 'مساج سويدي', 'مساج علاجي', 'عناية منزلية']
           }
           if (!area.latitude || !area.longitude) {
-            const d = area.district.trim()
-            const c = jeddahCoords[d] || jeddahCoords[d.replace(/^حي\s+/, '')] || jeddahCoords['حي ' + d]
-            if (c) { area.latitude = c.lat; area.longitude = c.lng }
+            const d = (area.district || '').trim()
+            const c = jeddahCoords[d] || jeddahCoords[d.replace(/^حي\s+/, '')] || jeddahCoords['حي ' + d] || null
+            area.latitude = c ? c.lat : 21.5433
+            area.longitude = c ? c.lng : 39.1728
           }
           if (!area.lifecycleState) {
             area.lifecycleState = (!area.latitude || !area.longitude) ? 'needs_inspection' : (area.status === 'active' ? 'tech_fixed' : 'diagnosing')
